@@ -139,9 +139,9 @@ If you want to learn more about Git and GitLab, you can refer to the <a href="ht
 <p>Version control is a system that helps track and manage changes to files over time. It's an essential tool for software development, enabling developers to collaborate effectively, maintain a history of changes, and manage different versions of their code. With version control, you can revert files to a previous state, compare changes over time, see who last modified something that might be causing issues, and more. It acts as a safety net, allowing developers to experiment with new ideas without fear of losing their original work.</p>
 <h3 id="example">Example:</h3>
 <p>Imagine you're working on a Python application for a bookstore. Over time, you add several features, but one of them turns out to be problematic. With version control, you can easily remove just the unwanted feature while keeping the other improvements. Let's see how this might look:</p>
-<ol>
-<li>Day 1: You start with a basic Book class.</li>
-</ol>
+<ul>
+<li><strong>Day 1:</strong> You start with a basic Book class.</li>
+</ul>
 <pre><code class="language-python">class Book:
     def __init__(self, title, author, price):
         self.title = title
@@ -151,9 +151,9 @@ If you want to learn more about Git and GitLab, you can refer to the <a href="ht
     def display_info(self):
         return f&quot;{self.title} by {self.author}: ${self.price}&quot;
 </code></pre>
-<ol>
-<li>Day 3: You add a discount feature.</li>
-</ol>
+<ul>
+<li><strong>Day 3:</strong> You add a discount feature.</li>
+</ul>
 <pre><code class="language-python">class Book:
     def __init__(self, title, author, price):
         self.title = title
@@ -166,9 +166,9 @@ If you want to learn more about Git and GitLab, you can refer to the <a href="ht
     def apply_discount(self, discount):
         self.price = self.price * (1 - discount)
 </code></pre>
-<ol>
-<li>Day 5: You add a feature to track stock, but it has a bug.</li>
-</ol>
+<ul>
+<li><strong>Day 5:</strong> You add a feature to track stock, but it has a bug.</li>
+</ul>
 <pre><code class="language-python">class Book:
     def __init__(self, title, author, price, stock):
         self.title = title
@@ -185,9 +185,9 @@ If you want to learn more about Git and GitLab, you can refer to the <a href="ht
     def update_stock(self, quantity):
         self.stock += quantity  # Bug: This allows negative stock!
 </code></pre>
-<ol>
-<li>Day 7: You add a method to calculate total value.</li>
-</ol>
+<ul>
+<li><strong>Day 7:</strong> You add a method to calculate total value.</li>
+</ul>
 <pre><code class="language-python">class Book:
     def __init__(self, title, author, price, stock):
         self.title = title
@@ -207,9 +207,9 @@ If you want to learn more about Git and GitLab, you can refer to the <a href="ht
     def total_value(self):
         return self.price * self.stock
 </code></pre>
-<ol>
-<li>Day 10: You realize the stock tracking feature has a bug allowing negative stock.</li>
-</ol>
+<ul>
+<li><strong>Day 10:</strong> You realize the stock tracking feature has a bug allowing negative stock.</li>
+</ul>
 <p>With version control, you can:
 1. Review the history of changes to identify when the bug was introduced.
 2. Revert just the problematic <code>update_stock</code> method while keeping the other beneficial changes.
@@ -288,43 +288,47 @@ When not tracked by Git, a file is in the <strong>Untracked</strong> state.
 <h2 id="git-areas-and-workflow">Git Areas and Workflow</h2>
 <p>Understanding the different areas in Git is crucial for mastering its workflow. Git manages your project's files through four main areas:</p>
 <ol>
-<li><strong>Working Directory (Working Tree)</strong>:</li>
+<li>
+<p><strong>Working Directory (Working Tree)</strong>:</p>
+<ul>
 <li>This is where you actually work on your project files.</li>
 <li>It's a single checkout of one version of the project.</li>
-<li>
-<p>These files are pulled out of the compressed database in the Git directory and placed on disk for you to use or modify.</p>
+<li>These files are pulled out of the compressed database in the Git directory and placed on disk for you to use or modify.</li>
+</ul>
 </li>
 <li>
 <p><strong>Staging Area (Index)</strong>:</p>
-</li>
+<ul>
 <li>This is a file, generally contained in your Git directory, that stores information about what will go into your next commit.</li>
 <li>It's sometimes referred to as the "Index".</li>
 <li>Think of it as a prep area for your next commit.</li>
-<li>
-<p>Files are added to this area with the <code>git add</code> command.</p>
+<li>Files are added to this area with the <code>git add</code> command.</li>
+</ul>
 </li>
 <li>
 <p><strong>Local Repository</strong>:</p>
-</li>
+<ul>
 <li>This is where Git stores the metadata and object database for your project.</li>
 <li>It's what's copied when you clone a repository from another computer.</li>
 <li>The local repository contains all of your committed changes.</li>
-<li>
-<p>It's located in the <code>.git</code> directory of your project.</p>
+<li>It's located in the <code>.git</code> directory of your project.</li>
+</ul>
 </li>
 <li>
 <p><strong>Remote Repository</strong>:</p>
-</li>
+<ul>
 <li>This is a version of your project that is hosted on the Internet or network somewhere (like GitHub, GitLab, or Bitbucket).</li>
 <li>You can have several of them, each of which generally is either read-only or read/write for you.</li>
 <li>Collaborating with others involves managing your remote repositories and pushing and pulling data to and from them when you need to share work.</li>
+</ul>
+</li>
 </ol>
 <h3 id="basic-git-workflow">Basic Git Workflow:</h3>
 <ol>
-<li>You modify files in your Working Directory.</li>
-<li>You stage the files, adding snapshots of them to your Staging Area.</li>
-<li>You do a commit, which takes the files as they are in the Staging Area and stores that snapshot permanently to your Local Repository.</li>
-<li>You push your changes to a Remote Repository to share with others or as a backup.
+<li>You <strong>modify</strong> files in your Working Directory.</li>
+<li>You <strong>stage</strong> the files, adding snapshots of them to your Staging Area.</li>
+<li>You do a <strong>commit</strong>, which takes the files as they are in the Staging Area and stores that <strong>snapshot</strong> permanently to your Local Repository.</li>
+<li>You <strong>push</strong> your changes to a <strong>Remote Repository</strong> to share with others or as a backup.
    <img alt="" src="../img/areas.png" /></li>
 </ol>
 <p>Understanding these areas and how they interact is key to understanding Git's workflow and effectively managing your projects with version control.</p>
