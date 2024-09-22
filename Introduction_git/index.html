@@ -244,14 +244,15 @@ If you want to learn more about Git and GitLab, you can refer to the <a href="ht
 - Maintain a history of your development process</p>
 <p>Modern development teams use version control systems to manage their code, track changes, and collaborate effectively. Git is one of the most popular version control systems, providing a robust set of features for managing codebases of all sizes.</p>
 <h1 id="git">Git</h1>
-<p><img src="img/git.png" width="300" alt="Git logo">  </p>
+<p><img alt="" src="../img/git.png" />  </p>
 <p>Git is a distributed version control system that has revolutionized how developers manage and track changes in their code. Created by Linus Torvalds in 2005, Git was born out of the need for a fast, efficient, and reliable system to manage the development of the Linux kernel. Unlike centralized version control systems that preceded it, Git allows developers to have a complete copy of the project history on their local machines, enabling offline work and providing a safeguard against data loss.
 Git's distributed nature facilitates collaboration among developers, allowing them to work on different features simultaneously and merge their changes seamlessly. Its branching and merging capabilities make it easy to experiment with new ideas without affecting the main codebase. Since its inception, Git has become the de facto standard for version control in software development, used by millions of developers and organizations worldwide.</p>
 <h2 id="gits-basic-paradigms">Git's Basic Paradigms</h2>
 <ol>
 <li>
 <p><strong>Snapshots, Not Differences</strong>: 
-   Unlike other version control systems that store data as changes to a base version of each file, Git thinks of its data more like a series of snapshots of a miniature filesystem. Every time you commit, or save the state of your project in Git, it basically takes a picture of what all your files look like at that moment and stores a reference to that snapshot.</p>
+   Unlike other version control systems that store data as changes to a base version of each file, Git thinks of its data more like a series of snapshots of a miniature filesystem. Every time you commit, or save the state of your project in Git, it basically takes a picture of what all your files look like at that moment and stores a reference to that snapshot.
+   <img alt="" src="../img/snapshots.png" /></p>
 </li>
 <li>
 <p><strong>Local Operations</strong>:
@@ -281,7 +282,9 @@ Git's distributed nature facilitates collaboration among developers, allowing th
 <li><strong>Staged</strong>: You have marked a modified file in its current version to go into your next commit snapshot.</li>
 <li><strong>Committed</strong>: The data is safely stored in your local database.</li>
 </ol>
-<p>These three states correspond to the three main sections of a Git project.</p>
+<p>These three states correspond to the three main sections of a Git project.
+When not tracked by Git, a file is in the <strong>Untracked</strong> state.
+<img alt="" src="../img/lifecycle.png" /></p>
 <h2 id="git-areas-and-workflow">Git Areas and Workflow</h2>
 <p>Understanding the different areas in Git is crucial for mastering its workflow. Git manages your project's files through four main areas:</p>
 <ol>
@@ -312,7 +315,7 @@ Git's distributed nature facilitates collaboration among developers, allowing th
 <li>
 <p><strong>Remote Repository</strong>:</p>
 </li>
-<li>This is a version of your project that is hosted on the Internet or network somewhere (like GitLab, GitLab, or Bitbucket).</li>
+<li>This is a version of your project that is hosted on the Internet or network somewhere (like GitHub, GitLab, or Bitbucket).</li>
 <li>You can have several of them, each of which generally is either read-only or read/write for you.</li>
 <li>Collaborating with others involves managing your remote repositories and pushing and pulling data to and from them when you need to share work.</li>
 </ol>
@@ -321,7 +324,8 @@ Git's distributed nature facilitates collaboration among developers, allowing th
 <li>You modify files in your Working Directory.</li>
 <li>You stage the files, adding snapshots of them to your Staging Area.</li>
 <li>You do a commit, which takes the files as they are in the Staging Area and stores that snapshot permanently to your Local Repository.</li>
-<li>You push your changes to a Remote Repository to share with others or as a backup.</li>
+<li>You push your changes to a Remote Repository to share with others or as a backup.
+   <img alt="" src="../img/areas.png" /></li>
 </ol>
 <p>Understanding these areas and how they interact is key to understanding Git's workflow and effectively managing your projects with version control.</p>
 <h1 id="gitlab">GitLab</h1>
@@ -354,6 +358,7 @@ GitLab is a web-based hosting service for Git repositories. Launched in 2008, it
 <p>GitLab has played a significant role in the growth of open-source software, providing a platform where developers from around the world can collaborate on projects. It's used not only by individual developers and open-source projects but also by large companies to host and manage their code.</p>
 <h2 id="setting-up-your-environment">Setting up your environment</h2>
 <h3 id="anaconda-and-python">Anaconda and Python:</h3>
+<p><img alt="" src="../img/conda.png" /></p>
 <ol>
 <li>Download and install Anaconda from the official website: https://www.anaconda.com/products/distribution</li>
 <li>During installation, make sure to add Anaconda to your PATH environment variable when prompted.</li>
@@ -373,11 +378,10 @@ GitLab is a web-based hosting service for Git repositories. Launched in 2008, it
 <pre><code>pip install flask
 </code></pre>
 <h3 id="git_1">Git</h3>
-<ol>
-<li>Download Git from the official website: https://git-scm.com/downloads</li>
-<li>Follow the installation instructions for your operating system.</li>
-<li>After installation, open a new terminal or command prompt and verify the installation:</li>
-</ol>
+<p><img alt="" src="../img/git.png" />
+1. Download Git from the official website: https://git-scm.com/downloads
+2. Follow the installation instructions for your operating system.
+3. After installation, open a new terminal or command prompt and verify the installation:</p>
 <pre><code>git --version
 </code></pre>
 <ol>
@@ -387,7 +391,8 @@ GitLab is a web-based hosting service for Git repositories. Launched in 2008, it
 git config --global user.email &quot;your.email@example.com&quot;
 </code></pre>
 <h3 id="gitlab_1">GitLab</h3>
-<p>We will use GitLab as our remote repository for this project.<br />
+<p><img alt="" src="../img/gitlab.png" />
+We will use GitLab as our remote repository for this project.<br />
 A GitLab server is already hosted at INSA, you can access it at https://gitlab-ens.insa-toulouse.fr/ (you need to be connected to the INSA VPN to access it).
 Verify that you do have a GitLab account.</p>
 <h3 id="remote-repository">Remote repository</h3>
@@ -437,6 +442,8 @@ Verify that you do have a GitLab account.</p>
 <li>Create a new file called <code>app.py</code>:</li>
 </ol>
 <pre><code>touch app.py
+# touch is a command that creates an empty file
+# on windows just create it manually
 </code></pre>
 <p>This command creates an empty file named <code>app.py</code>.</p>
 <ol>
@@ -464,6 +471,8 @@ if __name__ == '__main__':
 <li>Create a new directory for our HTML templates:</li>
 </ol>
 <pre><code>mkdir templates
+# mkdir is a command that creates a new directory
+# on windows just create it manually
 </code></pre>
 <p>This command creates a new directory named "templates", where Flask will look for our HTML files.</p>
 <ol>
@@ -471,6 +480,7 @@ if __name__ == '__main__':
 </ol>
 <p>For <code>index.html</code>:</p>
 <pre><code>touch templates/index.html
+# on windows just create it manually
 </code></pre>
 <p>Then add the HTML content for the form in your text editor.</p>
 <pre><code class="language-html">&lt;!DOCTYPE html&gt;
@@ -497,6 +507,7 @@ if __name__ == '__main__':
 </code></pre>
 <p>For <code>result.html</code>:</p>
 <pre><code>touch templates/result.html
+# on windows just create it manually
 </code></pre>
 <p>Then add the HTML content for the result page in your text editor.</p>
 <pre><code class="language-html">&lt;!DOCTYPE html&gt;
@@ -535,19 +546,28 @@ By adding these files to the .gitignore file, we ensure that they are not tracke
 </ol>
 <pre><code>git add .
 </code></pre>
-<p>This stages all new and modified files, preparing them for commit.</p>
+<p>This stages all new and modified files, preparing them for commit.
+   Check the status again to verify that the files have been staged:</p>
+<pre><code>git status
+</code></pre>
 <ol>
 <li>Commit the changes:</li>
 </ol>
 <pre><code>git commit -m &quot;Add basic Flask app structure&quot;
 </code></pre>
-<p>This creates a new commit with the staged changes and adds a descriptive message.</p>
+<p>This creates a new commit with the staged changes and adds a descriptive message.
+   Check the status again to verify that the commit has been created:</p>
+<pre><code>git status
+</code></pre>
 <ol>
 <li>Push the changes to the remote repository:</li>
 </ol>
 <pre><code>git push origin main
 </code></pre>
-<p>This uploads your local commits to the remote repository on GitLab.</p>
+<p>This uploads your local commits to the remote repository on GitLab.
+   Check the status again to verify that the commit has been pushed:</p>
+<pre><code>git status
+</code></pre>
 <h5 id="5-testing-the-app">5. Testing the App</h5>
 <p>Before notifying your team, make sure the app works as expected:</p>
 <pre><code>python app.py
