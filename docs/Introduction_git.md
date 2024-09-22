@@ -128,15 +128,17 @@ This example demonstrates how version control allows you to:
 Modern development teams use version control systems to manage their code, track changes, and collaborate effectively. Git is one of the most popular version control systems, providing a robust set of features for managing codebases of all sizes.
 
 # Git
-<img src="img/git.png" width="300" alt="Git logo">  
+![](img/git.png)  
 
 Git is a distributed version control system that has revolutionized how developers manage and track changes in their code. Created by Linus Torvalds in 2005, Git was born out of the need for a fast, efficient, and reliable system to manage the development of the Linux kernel. Unlike centralized version control systems that preceded it, Git allows developers to have a complete copy of the project history on their local machines, enabling offline work and providing a safeguard against data loss.
 Git's distributed nature facilitates collaboration among developers, allowing them to work on different features simultaneously and merge their changes seamlessly. Its branching and merging capabilities make it easy to experiment with new ideas without affecting the main codebase. Since its inception, Git has become the de facto standard for version control in software development, used by millions of developers and organizations worldwide.
+
 
 ## Git's Basic Paradigms
 
 1. **Snapshots, Not Differences**: 
    Unlike other version control systems that store data as changes to a base version of each file, Git thinks of its data more like a series of snapshots of a miniature filesystem. Every time you commit, or save the state of your project in Git, it basically takes a picture of what all your files look like at that moment and stores a reference to that snapshot.
+   ![](img/snapshots.png)
 
 2. **Local Operations**:
    Most operations in Git need only local files and resources to operate. This means you can work on your project even when you're offline or not on a VPN, unlike centralized systems that need to communicate with a server for almost every operation.
@@ -162,6 +164,9 @@ In Git, files can exist in three states:
 3. **Committed**: The data is safely stored in your local database.
 
 These three states correspond to the three main sections of a Git project.
+When not tracked by Git, a file is in the **Untracked** state.
+![](img/lifecycle.png)
+
 
 ## Git Areas and Workflow
 
@@ -185,9 +190,11 @@ Understanding the different areas in Git is crucial for mastering its workflow. 
    - It's located in the `.git` directory of your project.
 
 4. **Remote Repository**:
-   - This is a version of your project that is hosted on the Internet or network somewhere (like GitLab, GitLab, or Bitbucket).
+   - This is a version of your project that is hosted on the Internet or network somewhere (like GitHub, GitLab, or Bitbucket).
    - You can have several of them, each of which generally is either read-only or read/write for you.
    - Collaborating with others involves managing your remote repositories and pushing and pulling data to and from them when you need to share work.
+
+
 
 ### Basic Git Workflow:
 
@@ -195,6 +202,7 @@ Understanding the different areas in Git is crucial for mastering its workflow. 
 2. You stage the files, adding snapshots of them to your Staging Area.
 3. You do a commit, which takes the files as they are in the Staging Area and stores that snapshot permanently to your Local Repository.
 4. You push your changes to a Remote Repository to share with others or as a backup.
+   ![](img/areas.png)
 
 Understanding these areas and how they interact is key to understanding Git's workflow and effectively managing your projects with version control.
 
@@ -223,6 +231,7 @@ GitLab has played a significant role in the growth of open-source software, prov
 ## Setting up your environment
 
 ### Anaconda and Python:
+![](img/conda.png)
 
 1. Download and install Anaconda from the official website: https://www.anaconda.com/products/distribution
 2. During installation, make sure to add Anaconda to your PATH environment variable when prompted.
@@ -241,7 +250,7 @@ pip install flask
 ```
 
 ### Git
-
+![](img/git.png)
 1. Download Git from the official website: https://git-scm.com/downloads
 2. Follow the installation instructions for your operating system.
 3. After installation, open a new terminal or command prompt and verify the installation:
@@ -255,6 +264,7 @@ git config --global user.email "your.email@example.com"
 ```
 
 ### GitLab
+![](img/gitlab.png)
 We will use GitLab as our remote repository for this project.  
 A GitLab server is already hosted at INSA, you can access it at https://gitlab-ens.insa-toulouse.fr/ (you need to be connected to the INSA VPN to access it).
 Verify that you do have a GitLab account.
@@ -319,7 +329,10 @@ Now, we'll create the basic structure for our Flask application.
 
 ```
 touch app.py
+# touch is a command that creates an empty file
+# on windows just create it manually
 ```
+
    This command creates an empty file named `app.py`.
 
 2. Open `app.py` in your preferred text editor and add the following code:
@@ -347,6 +360,8 @@ if __name__ == '__main__':
 3. Create a new directory for our HTML templates:
 ```
 mkdir templates
+# mkdir is a command that creates a new directory
+# on windows just create it manually
 ```
    This command creates a new directory named "templates", where Flask will look for our HTML files.
 
@@ -355,6 +370,7 @@ mkdir templates
    For `index.html`:
 ```
 touch templates/index.html
+# on windows just create it manually
 ```
    Then add the HTML content for the form in your text editor.
 ```html
@@ -384,6 +400,7 @@ touch templates/index.html
    For `result.html`:
 ```
 touch templates/result.html
+# on windows just create it manually
 ```
    Then add the HTML content for the result page in your text editor.
 ```html
@@ -431,18 +448,30 @@ git status
 git add .
 ```
    This stages all new and modified files, preparing them for commit.
+   Check the status again to verify that the files have been staged:
+```
+git status
+```
 
 3. Commit the changes:
 ```
 git commit -m "Add basic Flask app structure"
 ```
    This creates a new commit with the staged changes and adds a descriptive message.
+   Check the status again to verify that the commit has been created:
+```
+git status
+```
 
 4. Push the changes to the remote repository:
 ```
 git push origin main
 ```
    This uploads your local commits to the remote repository on GitLab.
+   Check the status again to verify that the commit has been pushed:
+```
+git status
+```
 
 ##### 5. Testing the App
 
