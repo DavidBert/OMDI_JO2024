@@ -1,0 +1,8 @@
+site_name: Outils et méthodes de développement informatique
+nav:
+  - Home: index.md
+  - Introduction to GitHub: Introduction_git.md
+theme:
+  name: 'simplex'
+  logo: docs/img/logo-insa.jpg
+  favicon: docs/img/favicon.ico
