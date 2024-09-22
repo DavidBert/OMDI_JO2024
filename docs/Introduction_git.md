@@ -18,7 +18,7 @@ Version control is a system that helps track and manage changes to files over ti
 
 Imagine you're working on a Python application for a bookstore. Over time, you add several features, but one of them turns out to be problematic. With version control, you can easily remove just the unwanted feature while keeping the other improvements. Let's see how this might look:
 
-1. Day 1: You start with a basic Book class.
+* __Day 1:__ You start with a basic Book class.
 ```python
 class Book:
     def __init__(self, title, author, price):
@@ -30,7 +30,7 @@ class Book:
         return f"{self.title} by {self.author}: ${self.price}"
 ```
 
-2. Day 3: You add a discount feature.
+*  __Day 3:__ You add a discount feature.
 ```python
 class Book:
     def __init__(self, title, author, price):
@@ -45,7 +45,7 @@ class Book:
         self.price = self.price * (1 - discount)
 ```
 
-3. Day 5: You add a feature to track stock, but it has a bug.
+* __Day 5:__ You add a feature to track stock, but it has a bug.
 ```python
 class Book:
     def __init__(self, title, author, price, stock):
@@ -64,7 +64,7 @@ class Book:
         self.stock += quantity  # Bug: This allows negative stock!
 ```
 
-4. Day 7: You add a method to calculate total value.
+* __Day 7:__ You add a method to calculate total value.
 ```python
 class Book:
     def __init__(self, title, author, price, stock):
@@ -86,7 +86,7 @@ class Book:
         return self.price * self.stock
 ```
 
-5. Day 10: You realize the stock tracking feature has a bug allowing negative stock.
+* __Day 10:__ You realize the stock tracking feature has a bug allowing negative stock.
 
 With version control, you can:
 1. Review the history of changes to identify when the bug was introduced.
@@ -173,35 +173,35 @@ When not tracked by Git, a file is in the **Untracked** state.
 Understanding the different areas in Git is crucial for mastering its workflow. Git manages your project's files through four main areas:
 
 1. **Working Directory (Working Tree)**:
-   - This is where you actually work on your project files.
-   - It's a single checkout of one version of the project.
-   - These files are pulled out of the compressed database in the Git directory and placed on disk for you to use or modify.
+    - This is where you actually work on your project files.
+    - It's a single checkout of one version of the project.
+    - These files are pulled out of the compressed database in the Git directory and placed on disk for you to use or modify.
 
 2. **Staging Area (Index)**:
-   - This is a file, generally contained in your Git directory, that stores information about what will go into your next commit.
-   - It's sometimes referred to as the "Index".
-   - Think of it as a prep area for your next commit.
-   - Files are added to this area with the `git add` command.
+    - This is a file, generally contained in your Git directory, that stores information about what will go into your next commit.
+    - It's sometimes referred to as the "Index".
+    - Think of it as a prep area for your next commit.
+    - Files are added to this area with the `git add` command.
 
 3. **Local Repository**:
-   - This is where Git stores the metadata and object database for your project.
-   - It's what's copied when you clone a repository from another computer.
-   - The local repository contains all of your committed changes.
-   - It's located in the `.git` directory of your project.
+    - This is where Git stores the metadata and object database for your project.
+    - It's what's copied when you clone a repository from another computer.
+    - The local repository contains all of your committed changes.
+    - It's located in the `.git` directory of your project.
 
 4. **Remote Repository**:
-   - This is a version of your project that is hosted on the Internet or network somewhere (like GitHub, GitLab, or Bitbucket).
-   - You can have several of them, each of which generally is either read-only or read/write for you.
-   - Collaborating with others involves managing your remote repositories and pushing and pulling data to and from them when you need to share work.
+    - This is a version of your project that is hosted on the Internet or network somewhere (like GitHub, GitLab, or Bitbucket).
+    - You can have several of them, each of which generally is either read-only or read/write for you.
+    - Collaborating with others involves managing your remote repositories and pushing and pulling data to and from them when you need to share work.
 
 
 
 ### Basic Git Workflow:
 
-1. You modify files in your Working Directory.
-2. You stage the files, adding snapshots of them to your Staging Area.
-3. You do a commit, which takes the files as they are in the Staging Area and stores that snapshot permanently to your Local Repository.
-4. You push your changes to a Remote Repository to share with others or as a backup.
+1. You __modify__ files in your Working Directory.
+2. You __stage__ the files, adding snapshots of them to your Staging Area.
+3. You do a __commit__, which takes the files as they are in the Staging Area and stores that __snapshot__ permanently to your Local Repository.
+4. You __push__ your changes to a __Remote Repository__ to share with others or as a backup.
    ![](img/areas.png)
 
 Understanding these areas and how they interact is key to understanding Git's workflow and effectively managing your projects with version control.

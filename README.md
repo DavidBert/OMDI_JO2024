@@ -1,22 +1,23 @@
-# Projet : Site Web Interactif pour les Jeux Olympiques de Paris 2024
+![](docs/img/logo-insa.jpg)
+# INSA 4A Outils et méthodes de développement informatique
+## Projet :
+## Site Web Interactif pour les Jeux Olympiques de Paris 2024
 
-## Contexte
-Le Comité d'Organisation des Jeux Olympiques de Paris 2024 souhaite développer un site web dédié à l'événement. Ce site vise à fournir des informations essentielles aux touristes et aux passionnés des Jeux Olympiques, améliorant ainsi leur expérience globale.
+<img src="img/paris2024.png" width="300" alt="Logo des Jeux Olympiques de Paris 2024">  
 
-## Objectifs
-Créer une plateforme web interactive et informative qui englobe divers aspects des Jeux Olympiques de Paris 2024.
+Le Comité d'Organisation des Jeux Olympiques de Paris 2024 souhaite développer une plateforme web interactive pour les Jeux Olympiques de Paris 2024.  
+Vous avez été mandatés pour développer cette plateforme fournissant des informations essentielles aux touristes et aux passionnés des Jeux Olympiques, améliorant ainsi leur expérience globale.
 
-## Datasets
-Pour ce projet, vous utiliserez principalement les datasets suivants :
-- [Dataset principal des Jeux Olympiques de Paris 2024](https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games)
-- [Parcours de la flamme olympique](https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games?select=torch_route.csv)
-- [200 meilleurs restaurants parisiens selon TripAdvisor](https://www.kaggle.com/datasets/kanchana1990/200-best-paris-eateries-tripadvisor-24)
 
-## Fonctionnalités Principales
+
+
+
+## Cahier des charges
 
 ### 1. Dashboard des Médailles
 - Créer un tableau de bord récapitulatif des médailles par pays.
-- Proposer des visualisations créatives (ex : carte interactive, graphiques dynamiques).
+- Proposer des visualisations créatives (ex : carte interactive, graphiques dynamiques).  
+<img src="img/medailles.png" width="300" alt="Tableau des médailles">
 
 ### 2. Recherche d'Athlètes
 - Implémenter un formulaire de recherche avancée permettant de filtrer les athlètes selon divers critères :
@@ -31,19 +32,24 @@ Pour ce projet, vous utiliserez principalement les datasets suivants :
   - Les épreuves qui s'y déroulent
   - Les horaires des compétitions
   - Les athlètes participants
+![](docs/img/carte.jpg)
 
 ### 4. Agenda Interactif des Épreuves
 - Créer un calendrier dynamique des épreuves.
 - Inclure des filtres par sport, date, et lieu.
+![](docs/img/agenda.png)
 
 ### 5. Parcours de la Flamme Olympique
 - Visualiser le trajet de la flamme olympique sur une carte interactive.
+![](docs/img/parcours_flamme.jpg)
 
 ### 6. Guide Gastronomique
 - Intégrer une fonctionnalité pour afficher les restaurants les plus proches des sites olympiques à Paris lorsqu'on les séléctionne.
 - Utiliser le dataset des 200 meilleurs restaurants parisiens de TripAdvisor.
+![](docs/img/food.jpg)
 
 ### 7. Système de FAQ Intelligent
+Dans un second temps, le comité olympique vous demandera de développer un outil de recherche intelligent pour les questions fréquemment posées.
 - Développer un outil de recherche intelligent pour les questions fréquemment posées.
 - Utiliser le machine learning pour :
   - Détecter les doublons de questions
@@ -52,12 +58,20 @@ Pour ce projet, vous utiliserez principalement les datasets suivants :
 
 ## Spécifications Techniques
 
+### Données
+Pour ce projet, le comité olympique vous conseille d'utiliser les datasets suivants:  
+- [Dataset principal des Jeux Olympiques de Paris 2024](https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games)  
+- [Parcours de la flamme olympique](https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games?select=torch_route.csv)  
+- [200 meilleurs restaurants parisiens selon TripAdvisor](https://www.kaggle.com/datasets/kanchana1990/200-best-paris-eateries-tripadvisor-24)
+
 ### Framework Web
-- Utiliser Python avec Flask comme framework web principal.
+Pas de contrainte particulière, vous pouvez utiliser le framework de votre choix.
+Si vous souhaitez faire le projet en Python, le comité olympique vous conseille d'utiliser Flask comme framework web principal.
   - Flask est léger et flexible, idéal pour ce type de projet éducatif.
   - Il permet une intégration facile avec diverses bibliothèques de visualisation.
 
 ### Gestion des Données
+Le comité olympique vous conseille d'utiliser python pour la manipulation et l'analyse des données CSV.
 - Utiliser pandas pour la manipulation et l'analyse des données CSV.
   - Pandas est parfaitement adapté pour travailler avec des fichiers CSV fournis.
   - Il offre des fonctionnalités puissantes pour le filtrage, le tri et l'agrégation des données.
@@ -67,7 +81,8 @@ Pour ce projet, vous utiliserez principalement les datasets suivants :
 - Utiliser Folium pour les cartes interactives (parcours de la flamme olympique, sites des compétitions).
 
 ### Interface Utilisateur
-- Intégrer Streamlit pour le développement rapide de l'interface utilisateur.
+La encore vous pouvez utiliser le framework de votre choix.  
+Pour ceux qui souhaitent faire le projet en Python, le comité olympique vous conseille d'utiliser Streamlit pour le développement rapide de l'interface utilisateur.
   - Streamlit est particulièrement adapté pour créer des applications de data science interactives avec peu de code.
   - Il s'intègre bien avec pandas, Plotly et Folium.
 
@@ -81,7 +96,7 @@ Pour ce projet, vous utiliserez principalement les datasets suivants :
 
 ### DevOps
 - Utiliser Git pour le contrôle de version.
-- Mettre en place une pipeline CI/CD avec GitHub Actions pour l'intégration et le déploiement continus.
+- Mettre en place une pipeline CI/CD avec GitLab CI pour l'intégration et le déploiement continus.
 - Implémenter des tests unitaires avec pytest.
 - optionnel: Utiliser Docker pour la containerisation de l'application si nécessaire pour le déploiement.
 
@@ -94,8 +109,9 @@ Pour ce projet, vous utiliserez principalement les datasets suivants :
 - Utiliser les serveurs INSA pour le déploiement de l'application web.
 
 ## Livrables
-1. Code source complet sur GitHub
-2. Documentation technique et guide utilisateur
-3. Rapport de performance du modèle de ML pour la FAQ
-4. Présentation finale du projet
+1. Code source complet sur GitLab
+2. Un site web hébergé sur les serveurs INSA
+3. Documentation technique et guide utilisateur
+4. Rapport de performance du modèle de ML pour la FAQ
+5. Présentation finale du projet
 
