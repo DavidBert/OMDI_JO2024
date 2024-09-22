@@ -3,7 +3,8 @@
 ## Projet :
 ## Site Web Interactif pour les Jeux Olympiques de Paris 2024
 
-![](img/paris2024.png)
+<img src="img/paris2024.png" width="300" alt="Logo des Jeux Olympiques de Paris 2024">  
+
 Le Comité d'Organisation des Jeux Olympiques de Paris 2024 souhaite développer une plateforme web interactive pour les Jeux Olympiques de Paris 2024.  
 Vous avez été mandatés pour développer cette plateforme fournissant des informations essentielles aux touristes et aux passionnés des Jeux Olympiques, améliorant ainsi leur expérience globale.
 
@@ -15,8 +16,8 @@ Vous avez été mandatés pour développer cette plateforme fournissant des info
 
 ### 1. Dashboard des Médailles
 - Créer un tableau de bord récapitulatif des médailles par pays.
-- Proposer des visualisations créatives (ex : carte interactive, graphiques dynamiques).
-![](img/medailles.png)
+- Proposer des visualisations créatives (ex : carte interactive, graphiques dynamiques).  
+<img src="img/medailles.png" width="300" alt="Tableau des médailles">
 
 ### 2. Recherche d'Athlètes
 - Implémenter un formulaire de recherche avancée permettant de filtrer les athlètes selon divers critères :

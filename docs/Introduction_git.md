@@ -19,72 +19,72 @@ Version control is a system that helps track and manage changes to files over ti
 Imagine you're working on a Python application for a bookstore. Over time, you add several features, but one of them turns out to be problematic. With version control, you can easily remove just the unwanted feature while keeping the other improvements. Let's see how this might look:
 
 1. Day 1: You start with a basic Book class.
-   ```python
-   class Book:
-       def __init__(self, title, author, price):
-           self.title = title
-           self.author = author
-           self.price = price
+```python
+class Book:
+    def __init__(self, title, author, price):
+        self.title = title
+        self.author = author
+        self.price = price
 
-       def display_info(self):
-           return f"{self.title} by {self.author}: ${self.price}"
-   ```
+    def display_info(self):
+        return f"{self.title} by {self.author}: ${self.price}"
+```
 
 2. Day 3: You add a discount feature.
-   ```python
-   class Book:
-       def __init__(self, title, author, price):
-           self.title = title
-           self.author = author
-           self.price = price
+```python
+class Book:
+    def __init__(self, title, author, price):
+        self.title = title
+        self.author = author
+        self.price = price
 
-       def display_info(self):
-           return f"{self.title} by {self.author}: ${self.price}"
+    def display_info(self):
+        return f"{self.title} by {self.author}: ${self.price}"
 
-       def apply_discount(self, discount):
-           self.price = self.price * (1 - discount)
-   ```
+    def apply_discount(self, discount):
+        self.price = self.price * (1 - discount)
+```
 
 3. Day 5: You add a feature to track stock, but it has a bug.
-   ```python
-   class Book:
-       def __init__(self, title, author, price, stock):
-           self.title = title
-           self.author = author
-           self.price = price
-           self.stock = stock
+```python
+class Book:
+    def __init__(self, title, author, price, stock):
+        self.title = title
+        self.author = author
+        self.price = price
+        self.stock = stock
 
-       def display_info(self):
-           return f"{self.title} by {self.author}: ${self.price} (In stock: {self.stock})"
+    def display_info(self):
+        return f"{self.title} by {self.author}: ${self.price} (In stock: {self.stock})"
 
-       def apply_discount(self, discount):
-           self.price = self.price * (1 - discount)
+    def apply_discount(self, discount):
+        self.price = self.price * (1 - discount)
 
-       def update_stock(self, quantity):
-           self.stock += quantity  # Bug: This allows negative stock!
-   ```
+    def update_stock(self, quantity):
+        self.stock += quantity  # Bug: This allows negative stock!
+```
 
 4. Day 7: You add a method to calculate total value.
-   ```python
-   class Book:
-       def __init__(self, title, author, price, stock):
-           self.title = title
-           self.author = author
-           self.price = price
-           self.stock = stock
+```python
+class Book:
+    def __init__(self, title, author, price, stock):
+        self.title = title
+        self.author = author
+        self.price = price
+        self.stock = stock
 
-       def display_info(self):
-           return f"{self.title} by {self.author}: ${self.price} (In stock: {self.stock})"
+    def display_info(self):
+        return f"{self.title} by {self.author}: ${self.price} (In stock: {self.stock})"
 
-       def apply_discount(self, discount):
-           self.price = self.price * (1 - discount)
+    def apply_discount(self, discount):
+        self.price = self.price * (1 - discount)
 
-       def update_stock(self, quantity):
-           self.stock += quantity  # Bug: This allows negative stock!
+    def update_stock(self, quantity):
+        self.stock += quantity  # Bug: This allows negative stock!
 
-       def total_value(self):
-           return self.price * self.stock
-   ```
+    def total_value(self):
+        return self.price * self.stock
+```
 
 5. Day 10: You realize the stock tracking feature has a bug allowing negative stock.
 
@@ -127,7 +127,9 @@ This example demonstrates how version control allows you to:
 
 Modern development teams use version control systems to manage their code, track changes, and collaborate effectively. Git is one of the most popular version control systems, providing a robust set of features for managing codebases of all sizes.
 
-### Git
+# Git
+<img src="img/git.png" width="300" alt="Git logo">  
+
 Git is a distributed version control system that has revolutionized how developers manage and track changes in their code. Created by Linus Torvalds in 2005, Git was born out of the need for a fast, efficient, and reliable system to manage the development of the Linux kernel. Unlike centralized version control systems that preceded it, Git allows developers to have a complete copy of the project history on their local machines, enabling offline work and providing a safeguard against data loss.
 Git's distributed nature facilitates collaboration among developers, allowing them to work on different features simultaneously and merge their changes seamlessly. Its branching and merging capabilities make it easy to experiment with new ideas without affecting the main codebase. Since its inception, Git has become the de facto standard for version control in software development, used by millions of developers and organizations worldwide.
 
@@ -196,7 +198,8 @@ Understanding the different areas in Git is crucial for mastering its workflow. 
 
 Understanding these areas and how they interact is key to understanding Git's workflow and effectively managing your projects with version control.
 
-## GitLab
+# GitLab
+![](img/gitlab.png)
 GitLab is a web-based hosting service for Git repositories. Launched in 2008, it has become the world's largest host of source code and a central hub for collaboration among developers. While Git is a command-line tool, GitLab provides a web-based graphical interface. It also offers access control and several collaboration features, such as bug tracking, feature requests, task management, and wikis for every project.
 
 Key features of GitLab include:
@@ -225,31 +228,31 @@ GitLab has played a significant role in the growth of open-source software, prov
 2. During installation, make sure to add Anaconda to your PATH environment variable when prompted.
 3. Open an Anaconda Prompt (on Windows) or a terminal (on macOS/Linux).
 4. Create a new environment for this project:
-   ```
-   conda create --name gitproject python=3.8
-   ```
+```
+conda create --name gitproject python=3.8
+```
 5. Activate the environment:
-   ```
-   conda activate gitproject
-   ```
+```
+conda activate gitproject
+```
 6. Install Flask (we'll use it for examples during the session):
-   ```
-   pip install flask
-   ```
+```
+pip install flask
+```
 
 ### Git
 
 1. Download Git from the official website: https://git-scm.com/downloads
 2. Follow the installation instructions for your operating system.
 3. After installation, open a new terminal or command prompt and verify the installation:
-   ```
-   git --version
-   ```
+```
+git --version
+```
 4. Configure your Git username and email:
-   ```
-   git config --global user.name "Your Name"
-   git config --global user.email "your.email@example.com"
-   ```
+```
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
 
 ### GitLab
 We will use GitLab as our remote repository for this project.  
@@ -275,18 +278,18 @@ Verify that you do have a GitLab account.
 
 1. Open a terminal or command prompt.
 2. Navigate to the directory where you want to create your project:
-   ```
-   cd path/to/your/project/directory
-   ```
+```
+cd path/to/your/project/directory
+```
 3. Clone the remote repository:
-   ```
-   git clone https://GitLab.com/your-username/flask-git-demo.git
-   ```
+```
+git clone https://GitLab.com/your-username/flask-git-demo.git
+```
    (Replace 'your-username' with the GitLab username of the person who created the repository)
 4. Navigate into the cloned repository:
-   ```
-   cd flask-git-demo
-   ```
+```
+cd flask-git-demo
+```
 
 Now your environment is set up and ready for the Git and GitLab practical session. Each member of the group should have Python, Flask, and Git installed, a GitLab account, and a local copy of the repository. The repository owner has set up the remote repository and invited other group members as collaborators.
 
@@ -314,91 +317,91 @@ Now, we'll create the basic structure for our Flask application.
 
 1. Create a new file called `app.py`:
 
-   ```
-   touch app.py
-   ```
+```
+touch app.py
+```
    This command creates an empty file named `app.py`.
 
 2. Open `app.py` in your preferred text editor and add the following code:
 
-   ```python
-   from flask import Flask, render_template, request
-   from datetime import datetime
+```python
+from flask import Flask, render_template, request
+from datetime import datetime
 
-   app = Flask(__name__)
+app = Flask(__name__)
 
-   @app.route('/', methods=['GET', 'POST'])
-   def index():
-       if request.method == 'POST':
-           name = request.form['name']
-           dob = request.form['dob']
-           welcome_message = f"Welcome, {name}! Your date of birth is {dob}."
-           return render_template('result.html', message=welcome_message)
-       return render_template('index.html')
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    if request.method == 'POST':
+        name = request.form['name']
+        dob = request.form['dob']
+        welcome_message = f"Welcome, {name}! Your date of birth is {dob}."
+        return render_template('result.html', message=welcome_message)
+    return render_template('index.html')
 
-   if __name__ == '__main__':
-       app.run(debug=True)
-   ```
+if __name__ == '__main__':
+    app.run(debug=True)
+```
    This code sets up a basic Flask app with a route that handles both GET and POST requests.
 
 3. Create a new directory for our HTML templates:
-   ```
-   mkdir templates
-   ```
+```
+mkdir templates
+```
    This command creates a new directory named "templates", where Flask will look for our HTML files.
 
 4. Create two HTML files in the `templates` directory:
 
    For `index.html`:
-   ```
-   touch templates/index.html
-   ```
+```
+touch templates/index.html
+```
    Then add the HTML content for the form in your text editor.
-   ```html
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Birthday App</title>
-        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    </head>
-    <body>
-        <h1>Welcome to the Birthday App</h1>
-        <form method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="dob">Date of Birth:</label>
-            <input type="date" id="dob" name="dob" required>
-            
-            <input type="submit" value="Submit">
-        </form>
-    </body>
-    </html>
-    ```
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Welcome to the Birthday App</h1>
+    <form method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+```
 
    For `result.html`:
-   ```
-   touch templates/result.html
-   ```
+```
+touch templates/result.html
+```
    Then add the HTML content for the result page in your text editor.
-   ```html
-   <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Birthday App Result</title>
-        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    </head>
-    <body>
-        <h1>Your Birthday Information</h1>
-        <p>{{ message }}</p>
-        <a href="{{ url_for('index') }}">Go back</a>
-    </body>
-    </html>
-    ```
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday App Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Your Birthday Information</h1>
+    <p>{{ message }}</p>
+    <a href="{{ url_for('index') }}">Go back</a>
+</body>
+</html>
+```
 
 
 ##### 3. Update .gitignore
@@ -418,27 +421,27 @@ By adding these files to the .gitignore file, we ensure that they are not tracke
 Now we'll use Git to track our new files and push them to the remote repository.
 
 1. Check the status of your repository:
-   ```
-   git status
-   ```
+```
+git status
+```
    This command shows you which files have been changed or are untracked.
 
 2. Add the new files to the staging area:
-   ```
-   git add .
-   ```
+```
+git add .
+```
    This stages all new and modified files, preparing them for commit.
 
 3. Commit the changes:
-   ```
-   git commit -m "Add basic Flask app structure"
-   ```
+```
+git commit -m "Add basic Flask app structure"
+```
    This creates a new commit with the staged changes and adds a descriptive message.
 
 4. Push the changes to the remote repository:
-   ```
-   git push origin main
-   ```
+```
+git push origin main
+```
    This uploads your local commits to the remote repository on GitLab.
 
 ##### 5. Testing the App
@@ -459,23 +462,23 @@ Once you've successfully pushed the changes and tested the app, notify your team
 After the team lead has completed the setup and pushed the changes, follow these steps:
 
 1. Pull the latest changes from the remote repository:
-   ```
-   git pull origin main
-   ```
+```
+git pull origin main
+```
    This command fetches the latest changes from the remote repository and merges them into your local branch.
 
 2. Test the app to ensure it's working on your local machine:
-   ```
-   python app.py
-   ```
+```
+python app.py
+```
    This runs the Flask application. Check `http://127.0.0.1:5000/` in your browser to verify it's working correctly.
 
 #### Collaboration Notes
 
 - Always pull the latest changes before starting work each day:
-  ```
-  git pull origin main
-  ```
+```
+git pull origin main
+```
   This ensures you're working with the most up-to-date version of the project.
 
 - If you encounter any issues or merge conflicts, communicate with your team to resolve them.
@@ -564,15 +567,15 @@ Let your team know that you've pushed new changes to the main branch.
 After the student lead has pushed the changes:
 
 1. Pull the latest changes from the remote repository:
-   ```
-   git pull origin main
-   ```
+```
+git pull origin main
+```
    This updates your local main branch with the new changes.
 
 2. Test the updated application to ensure everything works correctly:
-   ```
-   python app.py
-   ```
+```
+python app.py
+```
 
 3. If you encounter any issues, communicate with the team to resolve them.
 
@@ -697,13 +700,13 @@ git push -u origin feature/zodiac-sign
 Once the pull request is approved and merged:
 
 1. Switch back to the main branch:
-   ```
-   git checkout main
-   ```
+```
+git checkout main
+```
 2. Pull the latest changes:
-   ```
-   git pull origin main
-   ```
+```
+git pull origin main
+```
 3. Test the updated application to ensure everything works correctly.
 
 In the next stage, we'll continue to build on our app and explore more advanced Git and GitLab features, such as handling merge conflicts.
@@ -747,57 +750,57 @@ git checkout -b feature/ui-enhancement
 ##### 3. Add CSS File
 
 1. Create a new directory named `static` in your project root:
-   ```
-   mkdir static
-   ```
+```
+mkdir static
+```
 
 2. Create a new CSS file:
-   ```
-   touch static/style.css
-   ```
+```
+touch static/style.css
+```
 
 3. Add some basic CSS to `style.css`:
-   ```css
-   body {
-       font-family: Arial, sans-serif;
-       line-height: 1.6;
-       margin: 0;
-       padding: 20px;
-       background-color: #f4f4f4;
-   }
+```css
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
 
-   h1 {
-       color: #333;
-   }
+h1 {
+    color: #333;
+}
 
-   form {
-       background-color: #fff;
-       padding: 20px;
-       border-radius: 5px;
-       box-shadow: 0 0 10px rgba(0,0,0,0.1);
-   }
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 
-   input[type="text"], input[type="date"] {
-       width: 100%;
-       padding: 8px;
-       margin-bottom: 10px;
-       border: 1px solid #ddd;
-       border-radius: 4px;
-   }
+input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
 
-   input[type="submit"] {
-       background-color: #333;
-       color: #fff;
-       border: none;
-       padding: 10px 20px;
-       cursor: pointer;
-       border-radius: 4px;
-   }
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
 
-   input[type="submit"]:hover {
-       background-color: #555;
-   }
-   ```
+input[type="submit"]:hover {
+    background-color: #555;
+}
+```
 
 
 ##### 4. Test Your Changes
@@ -814,14 +817,14 @@ Let's say you notice a small bug in the age calculation while working on the UI.
 
 1. Make a small change in `app.py` to fix the bug.
 2. Instead of committing this change, use Git stash:
-   ```
-   git stash save "Fix age calculation bug"
-   ```
+```
+git stash save "Fix age calculation bug"
+```
 3. Your working directory is now clean and back to the state of the last commit.
 4. To apply the stashed changes later:
-   ```
-   git stash pop
-   ```
+```
+git stash pop
+```
 
 ##### 6. Commit UI Changes
 
@@ -852,10 +855,10 @@ Create a pull request on GitLab, referencing the issue number in the description
 
 1. Close the GitLab issue once the pull request is merged.
 2. All team members should pull the latest changes:
-   ```
-   git checkout main
-   git pull origin main
-   ```
+```
+git checkout main
+git pull origin main
+```
 
 
 Discuss as a team:
@@ -886,104 +889,104 @@ In this stage, we'll practice merging and rebasing, including handling conflicts
 ##### For Developer A:
 
 1. Ensure your main branch is up-to-date:
-   ```
-   git checkout main
-   git pull origin main
-   ```
+```
+git checkout main
+git pull origin main
+```
 
 2. Create a new branch for a feature:
-   ```
-   git checkout -b feature/birthday-countdown
-   ```
+```
+git checkout -b feature/birthday-countdown
+```
 
 3. Implement the birthday countdown feature in `app.py`:
-   ```python
-   from datetime import datetime, date
+```python
+from datetime import datetime, date
 
-   def days_to_birthday(dob):
-       today = date.today()
-       dob = datetime.strptime(dob, "%Y-%m-%d").date()
-       next_birthday = date(today.year, dob.month, dob.day)
-       if next_birthday < today:
-           next_birthday = date(today.year + 1, dob.month, dob.day)
-       return (next_birthday - today).days
+def days_to_birthday(dob):
+    today = date.today()
+    dob = datetime.strptime(dob, "%Y-%m-%d").date()
+    next_birthday = date(today.year, dob.month, dob.day)
+    if next_birthday < today:
+        next_birthday = date(today.year + 1, dob.month, dob.day)
+    return (next_birthday - today).days
 
-   @app.route('/', methods=['GET', 'POST'])
-   def index():
-       if request.method == 'POST':
-           name = request.form['name']
-           dob = request.form['dob']
-           age = calculate_age(dob)
-           zodiac = get_zodiac_sign(dob)
-           days_to_bday = days_to_birthday(dob)
-           message = f"Welcome, {name}! You are {age} years old. Your zodiac sign is {zodiac}. There are {days_to_bday} days until your next birthday!"
-           return render_template('result.html', message=message)
-       return render_template('index.html')
-   ```
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    if request.method == 'POST':
+        name = request.form['name']
+        dob = request.form['dob']
+        age = calculate_age(dob)
+        zodiac = get_zodiac_sign(dob)
+        days_to_bday = days_to_birthday(dob)
+        message = f"Welcome, {name}! You are {age} years old. Your zodiac sign is {zodiac}. There are {days_to_bday} days until your next birthday!"
+        return render_template('result.html', message=message)
+    return render_template('index.html')
+```
 
 4. Commit your changes:
-   ```
-   git add app.py
-   git commit -m "Add birthday countdown feature"
-   ```
+```
+git add app.py
+git commit -m "Add birthday countdown feature"
+```
 
 ##### For Developer B:
 
 1. Make sure you're on the main branch and it's up-to-date:
-   ```
-   git checkout main
-   git pull origin main
-   ```
+```
+git checkout main
+git pull origin main
+```
 
 2. Make a change to the `index` function in `app.py`:
-   ```python
-   @app.route('/', methods=['GET', 'POST'])
-   def index():
-       if request.method == 'POST':
-           name = request.form['name']
-           dob = request.form['dob']
-           age = calculate_age(dob)
-           zodiac = get_zodiac_sign(dob)
-           message = f"Hello, {name}! Your age is {age} and your zodiac sign is {zodiac}."
-           return render_template('result.html', message=message)
-       return render_template('index.html')
-   ```
+```python
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    if request.method == 'POST':
+        name = request.form['name']
+        dob = request.form['dob']
+        age = calculate_age(dob)
+        zodiac = get_zodiac_sign(dob)
+        message = f"Hello, {name}! Your age is {age} and your zodiac sign is {zodiac}."
+        return render_template('result.html', message=message)
+    return render_template('index.html')
+```
 
 3. Commit and push this change:
-   ```
-   git add app.py
-   git commit -m "Update welcome message format"
-   git push origin main
-   ```
+```
+git add app.py
+git commit -m "Update welcome message format"
+git push origin main
+```
 
 ##### Back to Developer A:
 
 1. Try to merge the main branch into your feature branch:
-   ```
-   git checkout feature/birthday-countdown
-   git merge main
-   ```
+```
+git checkout feature/birthday-countdown
+git merge main
+```
 
 2. You'll encounter a merge conflict. Open `app.py` and you'll see something like:
-   ```python
+```python
    <<<<<<< HEAD
    message = f"Welcome, {name}! You are {age} years old. Your zodiac sign is {zodiac}. There are {days_to_bday} days until your next birthday!"
    =======
    message = f"Hello, {name}! Your age is {age} and your zodiac sign is {zodiac}."
    >>>>>>> main
-   ```
+```
 
 3. Resolve the conflict by combining both changes:
-   ```python
+```python
    message = f"Hello, {name}! Your age is {age} and your zodiac sign is {zodiac}. There are {days_to_bday} days until your next birthday!"
-   ```
+```
 
 4. Stage the resolved file, commit the merge, and push:
-   ```
-   git add app.py
-   git commit -m "Merge main into feature/birthday-countdown and resolve conflicts"
-   git push origin feature/birthday-countdown
-   ```
+```
+git add app.py
+git commit -m "Merge main into feature/birthday-countdown and resolve conflicts"
+git push origin feature/birthday-countdown
+```
 Before moving to the next part, you can merge the feature branch into the main branch, either using a merge request or if you have the right to do it directly:
 ```
 git checkout main
@@ -997,102 +1000,102 @@ Now, let's practice rebasing with a similar scenario.
 ##### For Developer A:
 
 1. Create a new feature branch from main:
-   ```
-   git checkout main
-   git pull origin main
-   git checkout -b feature/lucky-number
-   ```
+```
+git checkout main
+git pull origin main
+git checkout -b feature/lucky-number
+```
 
 2. Add a lucky number feature to `app.py`:
-   ```python
-   import random
+```python
+import random
 
-   def get_lucky_number():
-       return random.randint(1, 100)
+def get_lucky_number():
+    return random.randint(1, 100)
 
-   @app.route('/', methods=['GET', 'POST'])
-   def index():
-       if request.method == 'POST':
-           name = request.form['name']
-           dob = request.form['dob']
-           age = calculate_age(dob)
-           zodiac = get_zodiac_sign(dob)
-           lucky_number = get_lucky_number()
-           message = f"Hello, {name}! Your age is {age}, your zodiac sign is {zodiac}, and there are {days_to_bday} days until your next birthday. Your lucky number is {lucky_number}!"
-           return render_template('result.html', message=message)
-       return render_template('index.html')
-   ```
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    if request.method == 'POST':
+        name = request.form['name']
+        dob = request.form['dob']
+        age = calculate_age(dob)
+        zodiac = get_zodiac_sign(dob)
+        lucky_number = get_lucky_number()
+        message = f"Hello, {name}! Your age is {age}, your zodiac sign is {zodiac}, and there are {days_to_bday} days until your next birthday. Your lucky number is {lucky_number}!"
+        return render_template('result.html', message=message)
+    return render_template('index.html')
+```
 
 3. Commit your changes:
-   ```
-   git add app.py
-   git commit -m "Add lucky number feature"
-   ```
+```
+git add app.py
+git commit -m "Add lucky number feature"
+```
 
 ##### For Developer B:
 
 1. Make another change to the main branch:
-   ```
-   git checkout main
-   git pull origin main
-   ```
+```
+git checkout main
+git pull origin main
+```
 
 2. Update the `index` function in `app.py`:
-   ```python
-   @app.route('/', methods=['GET', 'POST'])
-   def index():
-       if request.method == 'POST':
-           name = request.form['name']
-           dob = request.form['dob']
-           age = calculate_age(dob)
-           zodiac = get_zodiac_sign(dob)
-           days_to_bday = days_to_birthday(dob)
-           message = f"Greetings, {name}! You're {age} years old with the zodiac sign {zodiac}. Your next birthday is in {days_to_bday} days."
-           return render_template('result.html', message=message)
-       return render_template('index.html')
-   ```
+```python
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    if request.method == 'POST':
+        name = request.form['name']
+        dob = request.form['dob']
+        age = calculate_age(dob)
+        zodiac = get_zodiac_sign(dob)
+        days_to_bday = days_to_birthday(dob)
+        message = f"Greetings, {name}! You're {age} years old with the zodiac sign {zodiac}. Your next birthday is in {days_to_bday} days."
+        return render_template('result.html', message=message)
+    return render_template('index.html')
+```
 
 3. Commit and push this change:
-   ```
-   git add app.py
-   git commit -m "Refine welcome message"
-   git push origin main
-   ```
+```
+git add app.py
+git commit -m "Refine welcome message"
+git push origin main
+```
 
 ##### Back to Developer A:
 
 1. Try to rebase your feature branch onto the updated main:
-   ```
-   git checkout feature/lucky-number
-   git rebase main
-   ```
+```
+git checkout feature/lucky-number
+git rebase main
+```
 
 2. You'll encounter a rebase conflict. Open `app.py` and resolve the conflict:
-   ```python
-   @app.route('/', methods=['GET', 'POST'])
-   def index():
-       if request.method == 'POST':
-           name = request.form['name']
-           dob = request.form['dob']
-           age = calculate_age(dob)
-           zodiac = get_zodiac_sign(dob)
-           days_to_bday = days_to_birthday(dob)
-           lucky_number = get_lucky_number()
-           message = f"Greetings, {name}! You're {age} years old with the zodiac sign {zodiac}. Your next birthday is in {days_to_bday} days. Your lucky number is {lucky_number}!"
-           return render_template('result.html', message=message)
-       return render_template('index.html')
-   ```
+```python
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    if request.method == 'POST':
+        name = request.form['name']
+        dob = request.form['dob']
+        age = calculate_age(dob)
+        zodiac = get_zodiac_sign(dob)
+        days_to_bday = days_to_birthday(dob)
+        lucky_number = get_lucky_number()
+        message = f"Greetings, {name}! You're {age} years old with the zodiac sign {zodiac}. Your next birthday is in {days_to_bday} days. Your lucky number is {lucky_number}!"
+        return render_template('result.html', message=message)
+    return render_template('index.html')
+```
 
 3. After resolving the conflict:
-   ```
-   git add app.py
-   git rebase --continue
-   ```
+```
+git add app.py
+git rebase --continue
+```
 
 4. Force push your rebased branch:
-   ```
-   git push origin feature/lucky-number --force
-   ```
+```
+git push origin feature/lucky-number --force
+```
 Make a merge request to merge the feature branch into the main branch.
 
 ### Stage 6: Implementing Tests for the Flask Application
@@ -1104,9 +1107,9 @@ In this stage, we'll add tests to our Flask application to ensure its functional
 First, we need to set up our testing environment:
 
 1. Install pytest, a popular testing framework for Python:
-   ```
-   pip install pytest
-   ```
+```
+pip install pytest
+```
 
 2. Create a new file called `test_app.py` in your project root directory.
 
@@ -1178,9 +1181,9 @@ To run the tests:
 
 1. In your terminal, navigate to your project directory.
 2. Run the following command:
-   ```
-   pytest
-   ```
+```
+pytest
+```
 
 You should see output indicating which tests passed or failed.
 In our case you should see that `test_form_submission` failed can you see why, and how to fix it?
@@ -1317,9 +1320,9 @@ In this final part, we'll set up a Continuous Integration/Continuous Deployment 
 #### 1. Setting Up GitLab CI/CD
 
 1. In your local repository, create a new file named .gitlab-ci.yml in the root directory:
-   ```
-   touch .gitlab-ci.yml     
-   ```
+```
+touch .gitlab-ci.yml     
+```
 
 2. Create a new file `.GitLab/workflows/python-app.yml` with the following content:
 
@@ -1351,11 +1354,11 @@ This GitLab CI/CD configuration does the following:
 * Triggers the pipeline on pushes to the main branch and for merge requests
 
 3. Commit and push this new file:
-   ```
-   git add .gitlab-ci.yml
-   git commit -m "Add GitLab CI/CD configuration"
-   git push origin main
-   ```
+```
+git add .gitlab-ci.yml
+git commit -m "Add GitLab CI/CD configuration"
+git push origin main
+```
 
 #### 2. Introducing a Failing Test
 
