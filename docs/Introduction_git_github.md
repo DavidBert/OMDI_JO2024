@@ -272,7 +272,7 @@ If you don't have a GitHub account, you can create one for free at https://githu
 (Just one person in the group should do this and invite others to collaborate)
 
 1. Log in to GitHub.
-2. Click the create a project button.
+2. Click the "new" button on the left menu.
 3. Name your repository (e.g., "flask-git-demo").
 4. Choose to make it public.
 5. Initialize the repository with a README file.
@@ -292,7 +292,7 @@ cd path/to/your/project/directory
 ```
 3. Clone the remote repository:
 ```
-git clone https://GitHub.com/your-username/flask-git-demo.git
+git clone https://github.com/your-username/flask-git-demo.git
 ```
    (Replace 'your-username' with the GitHub username of the person who created the repository)
 4. Navigate into the cloned repository:
@@ -701,16 +701,16 @@ git push -u origin feature/zodiac-sign
 ##### 7. Create a Pull Request
 
 1. Go to your repository on GitHub.
-2. You should see a prompt to create a merge request for your recently pushed branch. Click on it.
-3. Fill in the details of your merge request, describing the new zodiac sign feature.
-4. Assign team members to review your merge request.
+2. You should see a prompt to create a pull request for your recently pushed branch. Click on it.
+3. Fill in the details of your pull request, describing the new zodiac sign feature.
+4. Assign team members to review your pull request.
 
 #### For Other Team Members (Reviewers):
 
 ##### Reviewing the Pull Request
 
 1. Go to the repository on GitHub and navigate to the Pull Requests tab.
-2. Click on the merge request for the zodiac sign feature.
+2. Click on the pull request for the zodiac sign feature.
 3. Review the changes:
    - Check the code for correctness and style.
    - Consider how this feature integrates with the existing codebase.
