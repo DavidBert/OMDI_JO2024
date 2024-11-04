@@ -1,0 +1,241 @@
+id,category_id,category,question
+0,1,Ticketing & Access,How much does a single ticket cost?
+1,1,Ticketing & Access,Where can I buy tickets online?
+2,1,Ticketing & Access,Do I need to show my ID at the gate?
+3,1,Ticketing & Access,Is my ticket valid for all events?
+4,1,Ticketing & Access,Can I book tickets in advance?
+5,1,Ticketing & Access,What is the price of a multi-day pass?
+6,1,Ticketing & Access,How do I purchase tickets with cash?
+7,1,Ticketing & Access,Is there an age limit for free entry?
+8,1,Ticketing & Access,Can I use my passport to buy tickets?
+9,1,Ticketing & Access,Will tickets be available at the door?
+10,1,Ticketing & Access,How much does a single day ticket cost?
+11,1,Ticketing & Access,Can I upgrade from a basic to a premium pass?
+12,1,Ticketing & Access,What is the difference between a child and adult ticket price?
+13,1,Ticketing & Access,Is there a discount for buying tickets in bulk?
+14,1,Ticketing & Access,Can I buy tickets with my credit card?
+15,1,Ticketing & Access,Are student ID cards accepted as valid identification?
+16,1,Ticketing & Access,How do I know if my ticket is valid for the correct date?
+17,1,Ticketing & Access,Can I exchange or refund my ticket?
+18,1,Ticketing & Access,What is the price of a season pass for all events?
+19,1,Ticketing & Access,Is there a limit on how many tickets can be purchased at once?
+20,1,Ticketing & Access,Do I need to show my driver's license to buy tickets?
+21,1,Ticketing & Access,Can I use a digital ID card instead of a physical one?
+22,1,Ticketing & Access,How do I verify the authenticity of my ticket documents?
+23,1,Ticketing & Access,Is there an accepted list of valid identification documents?
+24,1,Ticketing & Access,Can I purchase tickets without showing any identification?
+25,1,Ticketing & Access,What is the process for replacing lost or stolen ID cards?
+26,1,Ticketing & Access,Are tourist ID cards considered valid identification?
+27,1,Ticketing & Access,How do I know if my identification document meets the requirements?
+28,1,Ticketing & Access,Can I use a foreign passport to buy tickets in Paris?
+29,1,Ticketing & Access,Is there an accepted list of countries whose citizens can purchase tickets without ID?
+30,1,Ticketing & Access,What is the price of a child ticket for under 12 years old?
+31,1,Ticketing & Access,Are students with valid student IDs considered adults or children?
+32,1,Ticketing & Access,Can I get a discount on ticket prices if I'm over 60 years old?
+33,1,Ticketing & Access,How much does an adult ticket cost in comparison to a senior ticket?
+34,1,Ticketing & Access,Is there an age limit for free entry into the Olympic events?
+35,1,Ticketing & Access,What is the process for obtaining a child ID card to buy tickets?
+36,1,Ticketing & Access,Can I purchase tickets at a discounted price if I'm under 18 years old?
+37,1,Ticketing & Access,How do I know if my age meets the requirements for free entry?
+38,1,Ticketing & Access,Is there an accepted list of countries whose citizens are considered children or adults?
+39,1,Ticketing & Access,Can I get a refund on ticket prices if I turn 18 during the event?
+40,2,Sport Events,What's the schedule for the Olympic matches?
+41,2,Sport Events,Can I buy tickets for the competition?
+42,2,Sport Events,Who will compete in the final round?
+43,2,Sport Events,How do athletes get selected for the event?
+44,2,Sport Events,What time is the morning session?
+45,2,Sport Events,Where can I watch the live scores?
+46,2,Sport Events,Which sport has the most events at the Olympics?
+47,2,Sport Events,Can I attend a match with my family?
+48,2,Sport Events,Who won the gold medal in the last edition?
+49,2,Sport Events,How do teams qualify for the Olympics?
+50,2,Sport Events,When does the swimming competition start?
+51,2,Sport Events,Where can I find the results of the judo event?
+52,2,Sport Events,What time is the final of the track and field competition?
+53,2,Sport Events,Which athletes are competing in the gymnastics event?
+54,2,Sport Events,Can I buy tickets online for the Olympic events?
+55,2,Sport Events,What's the schedule for the cycling competitions?
+56,2,Sport Events,How do I get to the venue for the Olympic events?
+57,2,Sport Events,Where can I see the live scores of the water polo match?
+58,2,Sport Events,When does the opening ceremony take place?
+59,2,Sport Events,Who will compete in the team event?
+60,2,Sport Events,Are there any swimming events on Tuesday morning?
+61,2,Sport Events,What are the competition phases for the athletics event?
+62,2,Sport Events,How do judges score in the diving event?
+63,2,Sport Events,Which athletes have qualified for the finals of the boxing event?
+64,2,Sport Events,Can I attend a session with heats and semi-finals?
+65,2,Sport Events,How do teams compete in the team handball event?
+66,2,Sport Events,Are there any time specifications for the morning sessions?
+67,2,Sport Events,What are the performance metrics for the track cycling event?
+68,2,Sport Events,Who won the gold medal in the 100m dash at the last Olympics?
+69,2,Sport Events,Can I buy tickets for the heats of the swimming competition?
+70,3,Program & Planning,What is the schedule for the Olympic games?
+71,3,Program & Planning,Can you show me a program for today's events?
+72,3,Program & Planning,When does the closing ceremony take place?
+73,3,Program & Planning,I'd like to know the event timings for tomorrow
+74,3,Program & Planning,How long will the opening ceremony last?
+75,3,Program & Planning,Is there a specific timetable for the sports events?
+76,3,Program & Planning,What is the duration of the festival activities?
+77,3,Program & Planning,Can you tell me about the session times for the competitions?
+78,3,Program & Planning,When does the first day of the games begin?
+79,3,Program & Planning,I want to know if there are any changes to the program
+80,3,Program & Planning,What time do the opening ceremonies start tomorrow?
+81,3,Program & Planning,How long will the closing parade last on August 11th?
+82,3,Program & Planning,Can you tell me when and where the Olympic torch relay begins?
+83,3,Program & Planning,When does the final session of the games take place?
+84,3,Program & Planning,Is there a special ceremony for the participating countries?
+85,3,Program & Planning,What time do the medal ceremonies begin today?
+86,3,Program & Planning,How long will it take to set up the Olympic stadium?
+87,3,Program & Planning,Can you tell me about any other events happening during the day?
+88,3,Program & Planning,When does the main festival of the games start?
+89,3,Program & Planning,Is there an extra session added for the final day?
+90,3,Program & Planning,What time is the morning session on July 26th?
+91,3,Program & Planning,Are there any specific dates for the cultural events?
+92,3,Program & Planning,Can you show me the schedule for the exhibition days?
+93,3,Program & Planning,How many hours do we have to get from our hotel to the stadium?
+94,3,Program & Planning,Is it possible to attend a midnight session at the games?
+95,3,Program & Planning,When does the evening session start on August 11th?
+96,3,Program & Planning,What time is the first morning session of the games?
+97,3,Program & Planning,Are there any changes to the schedule for the Olympic flame lighting ceremony?
+98,3,Program & Planning,Can you tell me about the timing of the final awards ceremony?
+99,3,Program & Planning,Is there a specific date and time for the closing party?
+100,4,Services & Amenities,Where is the nearest storage facility?
+101,4,Services & Amenities,Can I get help with my lost phone?
+102,4,Services & Amenities,Is medical service available on site?
+103,4,Services & Amenities,How do I access free wifi at the Olympic games?
+104,4,Services & Amenities,What time are information points open?
+105,4,Services & Amenities,Can I store my luggage for a few hours?
+106,4,Services & Amenities,Are there lockers available near the venue?
+107,4,Services & Amenities,Where can I find help with a lost document?
+108,4,Services & Amenities,Is there 24/7 service for emergencies?
+109,4,Services & Amenities,How do I get assistance with internet connectivity?
+110,4,Services & Amenities,What should I do if I lose my phone during the games?
+111,4,Services & Amenities,Where can I find information about medical services?
+112,4,Services & Amenities,Is wifi available at all Olympic venues?
+113,4,Services & Amenities,How do I access storage facilities near the site?
+114,4,Services & Amenities,Can I get help finding a lost item on site?
+115,4,Services & Amenities,Where are the information points located?
+116,4,Services & Amenities,What are the service hours for medical centers?
+117,4,Services & Amenities,Are there lockers with 24/7 access?
+118,4,Services & Amenities,How can I get assistance with wifi connectivity?
+119,4,Services & Amenities,Where can I find storage facilities near my accommodation?
+120,4,Services & Amenities,Is there a first aid point near the venue?
+121,4,Services & Amenities,Can I use a locker key for multiple entries?
+122,4,Services & Amenities,Are medical services available at all times?
+123,4,Services & Amenities,What is the location of the information desk?
+124,4,Services & Amenities,Are there storage facilities with 24/7 access?
+125,4,Services & Amenities,How do I get to the nearest lost and found service?
+126,4,Services & Amenities,Is internet connectivity available at all venues?
+127,4,Services & Amenities,Can I store my belongings for a few hours?
+128,4,Services & Amenities,Where are the medical centers located on site?
+129,4,Services & Amenities,Are lockers available near the main entrance?
+130,4,Services & Amenities,What should I do if I lose my wallet during the games?
+131,4,Services & Amenities,How can I get help finding a lost phone?
+132,4,Services & Amenities,Is there a lost and found service for personal belongings?
+133,4,Services & Amenities,Can I report a lost item to the information desk?
+134,4,Services & Amenities,Are there storage facilities for lost luggage?
+135,4,Services & Amenities,Where is the nearest place to turn in a lost document?
+136,4,Services & Amenities,How do I access medical services if I lose my ID?
+137,4,Services & Amenities,Can I get help finding a lost device on site?
+138,4,Services & Amenities,Is there a service for recovering lost items?
+139,4,Services & Amenities,What are the procedures for reporting a lost item?
+140,4,Services & Amenities,What time are information points open during the games?
+141,4,Services & Amenities,Are medical centers available 24/7 at all venues?
+142,4,Services & Amenities,What are the service hours for storage facilities?
+143,4,Services & Amenities,Can I get help with internet connectivity outside of business hours?
+144,4,Services & Amenities,Are there lockers with extended service hours?
+145,4,Services & Amenities,How do I access services if they close early?
+146,4,Services & Amenities,Is wifi available during late-night hours?
+147,4,Services & Amenities,Can I store my belongings during non-service hours?
+148,4,Services & Amenities,What are the opening hours for medical centers on site?
+149,4,Services & Amenities,Are there extended service hours for information points?
+150,5,Security & Emergencies,Is there a security check before entering the Olympic venue?
+151,5,Security & Emergencies,What should I do in case of an emergency during the Olympics?
+152,5,Security & Emergencies,Are firearms allowed at the Paris Olympics?
+153,5,Security & Emergencies,Can I bring my own food and drinks into the stadium?
+154,5,Security & Emergencies,How do I report a lost item to the authorities?
+155,5,Security & Emergencies,Is there a police presence at all times during the games?
+156,5,Security & Emergencies,What are the safety measures in place for spectators with disabilities?
+157,5,Security & Emergencies,Are there any specific rules regarding prohibited items?
+158,5,Security & Emergencies,Can I bring my own water bottle into the venue?
+159,5,Security & Emergencies,How do I get help if I'm feeling unwell or injured?
+160,5,Security & Emergencies,Where is the nearest security checkpoint to ask about lost property?
+161,5,Security & Emergencies,Is it permitted to bring a glass of wine into the stadium?
+162,5,Security & Emergencies,Who do I contact in case of an emergency during the Olympics?
+163,5,Security & Emergencies,What items are prohibited from being brought into the venue?
+164,5,Security & Emergencies,"Can I use my phone during the events, or will it be confiscated?"
+165,5,Security & Emergencies,Where is the nearest exit in case of an evacuation?
+166,5,Security & Emergencies,Is there a designated area for lost and found items?
+167,5,Security & Emergencies,Can I bring my own food and snacks into the venue?
+168,5,Security & Emergencies,What are the security measures in place for spectators with disabilities?
+169,5,Security & Emergencies,Who can I speak to if I have concerns about safety during the Olympics?
+170,5,Security & Emergencies,How do I find the nearest first aid point if I'm injured?
+171,5,Security & Emergencies,Can I use my phone's GPS to navigate the Olympic venue?
+172,5,Security & Emergencies,Are there any security cameras in place to monitor the area?
+173,5,Security & Emergencies,What is the procedure for reporting a lost or stolen item?
+174,5,Security & Emergencies,Where are the designated assembly points in case of an emergency?
+175,5,Security & Emergencies,Can I bring a portable charger into the venue to charge my phone?
+176,5,Security & Emergencies,How do I access the Olympic app to get information about the games?
+177,5,Security & Emergencies,Are there any restrictions on bringing electronic devices into the venue?
+178,5,Security & Emergencies,Who can I contact if I have concerns about safety during the Olympics?
+179,5,Security & Emergencies,Where are the designated emergency exit routes in case of an evacuation?
+180,6,Rules & Sport,What are the rules for basketball?
+181,6,Rules & Sport,How do you get points in tennis?
+182,6,Rules & Sport,Who qualifies for the Olympics?
+183,6,Rules & Sport,What is the scoring system in football?
+184,6,Rules & Sport,Can anyone join a tournament?
+185,6,Rules & Sport,How does the ranking work in swimming?
+186,6,Rules & Sport,What are the rules for high jump?
+187,6,Rules & Sport,How many medals can an athlete win?
+188,6,Rules & Sport,What is the qualification criteria for the World Championships?
+189,6,Rules & Sport,How do athletes get disqualified?
+190,6,Rules & Sport,How does scoring work in the Olympic games?
+191,6,Rules & Sport,What are the rules for track and field events?
+192,6,Rules & Sport,Who holds the record for most medals won?
+193,6,Rules & Sport,How do athletes qualify for the finals?
+194,6,Rules & Sport,Can spectators influence the competition results?
+195,6,Rules & Sport,What is the format of the tournament?
+196,6,Rules & Sport,How many rounds will be played in the competition?
+197,6,Rules & Sport,What are the rules for team events?
+198,6,Rules & Sport,How does the tiebreaker work in golf?
+199,6,Rules & Sport,Who gets to participate in the medal ceremony?
+200,6,Rules & Sport,What's the knockout stage in tennis like?
+201,6,Rules & Sport,Is it a points system or time trial in cycling?
+202,6,Rules & Sport,Are world records kept in long jump?
+203,6,Rules & Sport,Do athletes need to meet minimum standards for competition?
+204,6,Rules & Sport,Can teams be disqualified from the tournament?
+205,6,Rules & Sport,How many rounds are played in a boxing match?
+206,6,Rules & Sport,What's the format of the Olympic marathon?
+207,6,Rules & Sport,Is it a round-robin system or knockout in hockey?
+208,6,Rules & Sport,Are there any technical terms I should know about in archery?
+209,6,Rules & Sport,Do athletes need to meet qualification criteria for the World Championships?
+210,7,Food & Drink,What kind of food is available at the Olympic Games?
+211,7,Food & Drink,Are there any restaurants near the event venue?
+212,7,Food & Drink,Can I bring my own snacks to the stadium?
+213,7,Food & Drink,Where can I find a drink to quench my thirst?
+214,7,Food & Drink,Is there a cafe on site serving coffee and pastries?
+215,7,Food & Drink,Do you have any gluten-free food options available?
+216,7,Food & Drink,What types of meals are offered at the Olympic Games?
+217,7,Food & Drink,Can I buy food from a concession stand inside the stadium?
+218,7,Food & Drink,Are there vegetarian or vegan food options available?
+219,7,Food & Drink,Can I use my card to pay for food and drinks?
+220,7,Food & Drink,Where can I find something to eat during the games?
+221,7,Food & Drink,What types of food are allowed in the stadium?
+222,7,Food & Drink,Are there any food service locations near the Olympic Park?
+223,7,Food & Drink,How do I get a hot meal at the event venue?
+224,7,Food & Drink,Can I bring my own food and drinks into the stadium?
+225,7,Food & Drink,Where can I find a place to grab a snack during the games?
+226,7,Food & Drink,What types of payment are accepted for food and drinks?
+227,7,Food & Drink,Are there any food options available for people with dietary restrictions?
+228,7,Food & Drink,How do I get a drink refill at the Olympic Games?
+229,7,Food & Drink,Can I purchase food online before arriving at the event?
+230,7,Food & Drink,I'm looking for a place to buy hot meals near the Olympic Stadium
+231,7,Food & Drink,Do you have halal or kosher food options available?
+232,7,Food & Drink,Where can I find a food court serving international cuisine?
+233,7,Food & Drink,Are there any restaurants offering meal plans during the games?
+234,7,Food & Drink,Can I use my cash card to pay for food and drinks at the concession stands?
+235,7,Food & Drink,What types of snacks are allowed in the stadium?
+236,7,Food & Drink,How do I get gluten-free meals at the Olympic Games?
+237,7,Food & Drink,Where can I find a place to buy sandwiches or wraps?
+238,7,Food & Drink,Are there any payment machines available for food and drink purchases?
+239,7,Food & Drink,Can I bring my own containers to store my leftovers?

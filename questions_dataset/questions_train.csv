@@ -1,0 +1,1126 @@
+id,category_id,category,question
+0,0,Logistics & Transport,How do I get to the Olympic site from Paris city center?
+1,0,Logistics & Transport,What is the entrance procedure for spectators with disabilities?
+2,0,Logistics & Transport,Can I bring my wheelchair through security checks?
+3,0,Logistics & Transport,Is there a designated area for drop-off and pick-up of visitors with mobility issues?
+4,0,Logistics & Transport,Where can I find information on site access for athletes only?
+5,0,Logistics & Transport,Do I need to show ID to enter the Olympic site?
+6,0,Logistics & Transport,Are there any specific rules for accessing the site during opening/closing ceremonies?
+7,0,Logistics & Transport,Can I bring a stroller onto the site?
+8,0,Logistics & Transport,Is there an accessible entrance for visitors with mobility impairments?
+9,0,Logistics & Transport,How do I report access issues on the Olympic site?
+10,0,Logistics & Transport,What is the policy on bringing food and drink into the site?
+11,0,Logistics & Transport,Are there any designated areas for people with medical conditions to rest?
+12,0,Logistics & Transport,Can I bring a car onto the site and park it if I'm an athlete or official?
+13,0,Logistics & Transport,Is there a lost and found for personal belongings left at entrances?
+14,0,Logistics & Transport,How do I get help if I'm having trouble accessing the site?
+15,0,Logistics & Transport,Are there any specific rules for entering the site during peak hours?
+16,0,Logistics & Transport,Can I bring a service animal onto the site?
+17,0,Logistics & Transport,What is the procedure for getting a refund on ticket prices due to site access issues?
+18,0,Logistics & Transport,Is there a designated area for spectators with disabilities to wait for friends/family members?
+19,0,Logistics & Transport,How do I report incidents of bullying or harassment at site entrances?
+20,0,Logistics & Transport,Are there any specific rules for accessing the site during special events (e
+21,0,Logistics & Transport,Can I bring my own mobility aid into the site if I'm not an athlete or official?
+22,0,Logistics & Transport,Is there a designated area for athletes to leave their personal belongings while they're competing?
+23,0,Logistics & Transport,How do I get help if I'm having trouble accessing the site due to medical conditions?
+24,0,Logistics & Transport,Are there any specific rules for entering the site with a group of people?
+25,0,Logistics & Transport,Can I bring my own food and drink into the site if I have dietary restrictions?
+26,0,Logistics & Transport,Is there a designated area for spectators with disabilities to store their personal belongings?
+27,0,Logistics & Transport,"How do I report access issues related to transportation modes (buses, trains, taxis)?"
+28,0,Logistics & Transport,Are there any specific rules for accessing the site during holidays or special events?
+29,0,Logistics & Transport,Can I bring my own wheelchair into the site if it's not an electric one?
+30,0,Logistics & Transport,Is there a designated area for spectators with disabilities to wait for public transportation?
+31,0,Logistics & Transport,How do I get help if I'm having trouble accessing the site due to weather conditions?
+32,0,Logistics & Transport,Are there any specific rules for entering the site with a service animal?
+33,0,Logistics & Transport,Can I bring my own mobility aid into the site if it's a manual one?
+34,0,Logistics & Transport,Is there a designated area for athletes to store their personal belongings while they're competing?
+35,0,Logistics & Transport,How do I report incidents of theft or loss at site entrances?
+36,0,Logistics & Transport,Are there any specific rules for accessing the site during peak hours (e
+37,0,Logistics & Transport,Can I bring my own food and drink into the site if I'm an athlete or official?
+38,0,Logistics & Transport,Is there a designated area for spectators with disabilities to store their personal belongings while they're waiting for friends/family members?
+39,0,Logistics & Transport,How do I get help if I'm having trouble accessing the site due to construction or maintenance?
+40,0,Logistics & Transport,Are there any specific rules for entering the site with a group of people (e
+41,0,Logistics & Transport,Can I bring my own wheelchair into the site if it's an electric one?
+42,0,Logistics & Transport,Is there a designated area for spectators with disabilities to wait for friends/family members who are athletes or officials?
+43,0,Logistics & Transport,"How do I report access issues related to accommodations (hotels, hostels)?"
+44,0,Logistics & Transport,Are there any specific rules for accessing the site during holidays or special events (e
+45,0,Logistics & Transport,Can I bring my own mobility aid into the site if it's a scooter?
+46,0,Logistics & Transport,Is there a designated area for athletes to leave their personal belongings while they're competing in the Olympic village?
+47,0,Logistics & Transport,How do I get help if I'm having trouble accessing the site due to language barriers?
+48,0,Logistics & Transport,Are there any specific rules for entering the site with a service animal that's not a dog?
+49,0,Logistics & Transport,Can I bring my own wheelchair into the site if it's an all-terrain one?
+50,0,Logistics & Transport,What are the public transportation options from Paris city center to the Olympic site?
+51,0,Logistics & Transport,How do I get to the Olympic site using the metro?
+52,0,Logistics & Transport,Are there any special bus routes for spectators with disabilities?
+53,0,Logistics & Transport,Can I bring my own mobility aid onto public transportation?
+54,0,Logistics & Transport,Is there a designated area for people with medical conditions to rest on public transportation?
+55,0,Logistics & Transport,Do I need to show ID to board public transportation to get to the Olympic site?
+56,0,Logistics & Transport,Are there any specific rules for using public transportation during peak hours?
+57,0,Logistics & Transport,Can I bring my own wheelchair into the bus or train?
+58,0,Logistics & Transport,Is there a designated area for spectators with disabilities to store their personal belongings on public transportation?
+59,0,Logistics & Transport,How do I report incidents of bullying or harassment on public transportation?
+60,0,Logistics & Transport,Are there any special transportation options for athletes and officials?
+61,0,Logistics & Transport,Can I bring my own food and drink onto public transportation if I have dietary restrictions?
+62,0,Logistics & Transport,Is there a designated area for people with medical conditions to store their personal belongings on public transportation?
+63,0,Logistics & Transport,How do I get help if I'm having trouble accessing the Olympic site due to transportation issues?
+64,0,Logistics & Transport,Are there any specific rules for using public transportation during special events (e
+65,0,Logistics & Transport,Can I bring my own mobility aid onto the train or bus if it's not an electric one?
+66,0,Logistics & Transport,Is there a designated area for spectators with disabilities to wait for friends/family members on public transportation?
+67,0,Logistics & Transport,How do I report incidents of theft or loss on public transportation?
+68,0,Logistics & Transport,Are there any specific rules for using public transportation during peak hours (e
+69,0,Logistics & Transport,Can I bring my own wheelchair into the bus or train if it's a manual one?
+70,0,Logistics & Transport,Is there a designated area for people with medical conditions to rest on public transportation while waiting for friends/family members?
+71,0,Logistics & Transport,How do I get help if I'm having trouble accessing the Olympic site due to language barriers?
+72,0,Logistics & Transport,Are there any special transportation options for spectators with disabilities?
+73,0,Logistics & Transport,Can I bring my own food and drink onto public transportation if I'm an athlete or official?
+74,0,Logistics & Transport,Is there a designated area for people with medical conditions to store their personal belongings on public transportation while waiting for friends/family members?
+75,0,Logistics & Transport,"How do I report access issues related to accommodations (hotels, hostels) when using public transportation?"
+76,0,Logistics & Transport,Are there any specific rules for using public transportation during holidays or special events (e
+77,0,Logistics & Transport,Can I bring my own mobility aid onto the train or bus if it's an all-terrain one?
+78,0,Logistics & Transport,Is there a designated area for spectators with disabilities to store their personal belongings on public transportation while waiting for friends/family members who are athletes or officials?
+79,0,Logistics & Transport,How do I get help if I'm having trouble accessing the Olympic site due to weather conditions?
+80,0,Logistics & Transport,Are there any special transportation options for people with medical conditions?
+81,0,Logistics & Transport,Can I bring my own wheelchair into the bus or train if it's a scooter?
+82,0,Logistics & Transport,Is there a designated area for spectators with disabilities to wait for friends/family members who are athletes or officials on public transportation?
+83,0,Logistics & Transport,How do I report incidents of bullying or harassment on public transportation when traveling with friends/family members?
+84,0,Logistics & Transport,Are there any specific rules for using public transportation during peak hours (e
+85,0,Logistics & Transport,Can I bring my own food and drink onto public transportation if I'm an athlete or official who has dietary restrictions?
+86,0,Logistics & Transport,Is there a designated area for spectators with disabilities to store their personal belongings on public transportation while waiting for friends/family members who are athletes or officials?
+87,0,Logistics & Transport,How do I get help if I'm having trouble accessing the Olympic site due to language barriers when using public transportation?
+88,0,Logistics & Transport,Are there any special transportation options for people with medical conditions who have mobility aids?
+89,0,Logistics & Transport,Can I bring my own wheelchair into the bus or train if it's an electric one?
+90,0,Logistics & Transport,Is there a designated area for spectators with disabilities to wait for friends/family members on public transportation while waiting for their own friends/family members?
+91,0,Logistics & Transport,"How do I report access issues related to accommodations (hotels, hostels) when using public transportation during special events (e"
+92,0,Logistics & Transport,Are there any specific rules for using public transportation during holidays or special events (e
+93,0,Logistics & Transport,Can I bring my own mobility aid onto the train or bus if it's not an all-terrain one?
+94,0,Logistics & Transport,Is there a designated area for spectators with disabilities to store their personal belongings on public transportation while waiting for friends/family members who are athletes or officials?
+95,0,Logistics & Transport,How do I get help if I'm having trouble accessing the Olympic site due to construction or maintenance when using public transportation?
+96,0,Logistics & Transport,Are there any special transportation options for people with medical conditions who have mobility aids that are not electric?
+97,0,Logistics & Transport,Can I bring my own wheelchair into the bus or train if it's a manual one that is not an all-terrain one?
+98,0,Logistics & Transport,Is there a designated area for spectators with disabilities to wait for friends/family members on public transportation while waiting for their own friends/family members who are athletes or officials?
+99,0,Logistics & Transport,How do I report incidents of theft or loss on public transportation when traveling with friends/family members?
+100,0,Logistics & Transport,Are there any designated parking areas for spectators with disabilities at the Olympic site?
+101,0,Logistics & Transport,Can I bring my own mobility aid into the parking area?
+102,0,Logistics & Transport,Is there a designated area for people with medical conditions to rest while waiting in line to get into the parking area?
+103,0,Logistics & Transport,Do I need to show ID to park at the Olympic site if I'm a spectator with disabilities?
+104,0,Logistics & Transport,Are there any specific rules for using parking during peak hours (e
+105,0,Logistics & Transport,Can I bring my own wheelchair into the parking area if it's not an electric one?
+106,0,Logistics & Transport,Is there a designated area for spectators with disabilities to store their personal belongings while waiting in line to get into the parking area?
+107,0,Logistics & Transport,How do I report incidents of bullying or harassment while waiting in line to get into the parking area?
+108,0,Logistics & Transport,Are there any special parking options for athletes and officials?
+109,0,Logistics & Transport,Can I bring my own food and drink into the parking area if I have dietary restrictions?
+110,0,Logistics & Transport,Is there a designated area for people with medical conditions to store their personal belongings while waiting in line to get into the parking area?
+111,0,Logistics & Transport,How do I report incidents of theft or loss while waiting in line to get into the parking area?
+112,0,Logistics & Transport,Are there any specific rules for using parking during special events (e
+113,0,Logistics & Transport,Can I bring my own mobility aid into the parking area if it's an all-terrain one?
+114,0,Logistics & Transport,Is there a designated area for spectators with disabilities to wait for friends/family members while waiting in line to get into the parking area?
+115,0,Logistics & Transport,"How do I report access issues related to accommodations (hotels, hostels) when parking at the Olympic site?"
+116,0,Logistics & Transport,Are there any special parking options for people with medical conditions who have mobility aids?
+117,0,Logistics & Transport,Can I bring my own wheelchair into the parking area if it's an electric one?
+118,0,Logistics & Transport,Is there a designated area for spectators with disabilities to store their personal belongings while waiting in line to get into the parking area?
+119,0,Logistics & Transport,How do I report incidents of bullying or harassment while waiting in line to get into the parking area?
+120,0,Logistics & Transport,Are there any specific rules for using parking during holidays or special events (e
+121,0,Logistics & Transport,Can I bring my own mobility aid into the parking area if it's not a scooter?
+122,0,Logistics & Transport,Is there a designated area for spectators with disabilities to wait for friends/family members while waiting in line to get into the parking area?
+123,0,Logistics & Transport,How do I report incidents of theft or loss while waiting in line to get into the parking area?
+124,0,Logistics & Transport,Are there any special parking options for people with medical conditions who have mobility aids that are not electric?
+125,0,Logistics & Transport,Can I bring my own wheelchair into the parking area if it's a manual one?
+126,0,Logistics & Transport,Is there a designated area for spectators with disabilities to store their personal belongings while waiting in line to get into the parking area?
+127,0,Logistics & Transport,"How do I report access issues related to accommodations (hotels, hostels) when using public transportation during special events (e"
+128,0,Logistics & Transport,Are there any specific rules for using parking during holidays or special events (e
+129,0,Logistics & Transport,Can I bring my own mobility aid into the parking area if it's not an all-terrain one that is not electric?
+130,0,Logistics & Transport,Is there a designated area for spectators with disabilities to wait for friends/family members while waiting in line to get into the parking area?
+131,0,Logistics & Transport,How do I report incidents of theft or loss on public transportation when traveling with friends/family members during special events (e
+132,0,Logistics & Transport,Are there any special parking options for people with medical conditions who have mobility aids that are not electric and are not scooters?
+133,0,Logistics & Transport,Can I bring my own wheelchair into the parking area if it's a manual one that is not an all-terrain one?
+134,0,Logistics & Transport,Is there a designated area for spectators with disabilities to store their personal belongings while waiting in line to get into the parking area?
+135,0,Logistics & Transport,"How do I report access issues related to accommodations (hotels, hostels) when using public transportation during holidays or special events (e"
+136,0,Logistics & Transport,Are there any specific rules for using parking during construction or maintenance?
+137,0,Logistics & Transport,Can I bring my own mobility aid into the parking area if it's not an electric one and is not a scooter?
+138,0,Logistics & Transport,Is there a designated area for spectators with disabilities to wait for friends/family members while waiting in line to get into the parking area?
+139,0,Logistics & Transport,How do I report incidents of theft or loss on public transportation when traveling with friends/family members during construction or maintenance?
+140,0,Logistics & Transport,Are there any special parking options for people with medical conditions who have mobility aids that are not electric and are not scooters and are not all-terrain ones?
+141,0,Logistics & Transport,Can I bring my own wheelchair into the parking area if it's a manual one that is not an all-terrain one and is not electric?
+142,0,Logistics & Transport,Is there a designated area for spectators with disabilities to store their personal belongings while waiting in line to get into the parking area?
+143,0,Logistics & Transport,"How do I report access issues related to accommodations (hotels, hostels) when using public transportation during construction or maintenance?"
+144,0,Logistics & Transport,Are there any specific rules for using parking during holidays or special events (e
+145,0,Logistics & Transport,Can I bring my own mobility aid into the parking area if it's not an electric one and is not a scooter and is not all-terrain?
+146,0,Logistics & Transport,Is there a designated area for spectators with disabilities to wait for friends/family members while waiting in line to get into the parking area?
+147,0,Logistics & Transport,How do I report incidents of theft or loss on public transportation when traveling with friends/family members during holidays or special events (e
+148,0,Logistics & Transport,Are there any special parking options for people with medical conditions who have mobility aids that are not electric and are not scooters and are not all-terrain ones?
+149,0,Logistics & Transport,Can I bring my own wheelchair into the parking area if it's a manual one that is not an all-terrain one and is not electric?
+150,1,Ticketing & Access,What is the ticket price for the opening ceremony?
+151,1,Ticketing & Access,Can I buy tickets online or only at the gate?
+152,1,Ticketing & Access,Do I need to show my ID to enter the venue?
+153,1,Ticketing & Access,How much does a single-day pass cost?
+154,1,Ticketing & Access,Is it possible to book tickets in advance?
+155,1,Ticketing & Access,Can I purchase a ticket with a credit card?
+156,1,Ticketing & Access,What is the procedure for buying a ticket?
+157,1,Ticketing & Access,Are there any discounts for students or seniors?
+158,1,Ticketing & Access,Do I need to show my passport to buy a ticket?
+159,1,Ticketing & Access,How do I get a refund if I cancel my ticket?
+160,1,Ticketing & Access,Is it possible to upgrade my ticket to a VIP pass?
+161,1,Ticketing & Access,Can I transfer my ticket to someone else?
+162,1,Ticketing & Access,What is the policy on lost or stolen tickets?
+163,1,Ticketing & Access,Are there any restrictions on who can attend an event?
+164,1,Ticketing & Access,Do I need to print out my ticket or can I show it on my phone?
+165,1,Ticketing & Access,How much does a season pass cost for a group of people?
+166,1,Ticketing & Access,Can I buy a ticket at the last minute?
+167,1,Ticketing & Access,What is the process for replacing a lost ticket?
+168,1,Ticketing & Access,Are there any special tickets for athletes and staff?
+169,1,Ticketing & Access,Do I need to bring a valid ID to enter the venue?
+170,1,Ticketing & Access,How do I know if my ticket is valid for a specific event?
+171,1,Ticketing & Access,Can I exchange my ticket for a different event?
+172,1,Ticketing & Access,What are the rules for using a disabled access pass?
+173,1,Ticketing & Access,Are there any restrictions on taking food and drink into the venue?
+174,1,Ticketing & Access,Do I need to show my ticket to security personnel?
+175,1,Ticketing & Access,How do I report a problem with my ticket purchase?
+176,1,Ticketing & Access,Is it possible to buy a ticket at a box office or only online?
+177,1,Ticketing & Access,What is the policy on using a credit card to pay for tickets?
+178,1,Ticketing & Access,Can I get a refund if an event is cancelled?
+179,1,Ticketing & Access,Are there any restrictions on taking large bags into the venue?
+180,1,Ticketing & Access,Do I need to show my ticket to enter a specific area of the venue?
+181,1,Ticketing & Access,How do I know if my ticket includes access to a particular service?
+182,1,Ticketing & Access,Can I purchase a ticket for someone else as a gift?
+183,1,Ticketing & Access,What is the procedure for replacing a damaged or worn-out ticket?
+184,1,Ticketing & Access,Are there any restrictions on taking cameras or recording devices into the venue?
+185,1,Ticketing & Access,Do I need to show my ticket to enter the stadium from a specific entrance?
+186,1,Ticketing & Access,How do I report an issue with ticketing customer service?
+187,1,Ticketing & Access,Is it possible to buy a ticket at a ticket office inside the venue?
+188,1,Ticketing & Access,Can I get a refund if I miss an event due to unforeseen circumstances?
+189,1,Ticketing & Access,Are there any restrictions on taking pets into the venue?
+190,1,Ticketing & Access,Do I need to show my ticket to enter a VIP area or lounge?
+191,1,Ticketing & Access,"How do I know if my ticket includes access to a particular service, such as parking or Wi-Fi?"
+192,1,Ticketing & Access,Can I purchase a ticket for a group of people at a discounted rate?
+193,1,Ticketing & Access,What is the policy on using a different name on a ticket?
+194,1,Ticketing & Access,Are there any restrictions on taking food and drink into the venue that are not allowed?
+195,1,Ticketing & Access,Do I need to show my ticket to enter the venue from a specific entrance during peak hours?
+196,1,Ticketing & Access,How do I report an issue with ticketing software or systems?
+197,1,Ticketing & Access,Is it possible to buy a ticket at a box office outside the venue?
+198,1,Ticketing & Access,Can I get a refund if an event is postponed due to weather conditions?
+199,1,Ticketing & Access,Are there any restrictions on taking umbrellas into the venue?
+200,1,Ticketing & Access,What are the opening hours for site access?
+201,1,Ticketing & Access,How do I get a permit to access the site for construction work?
+202,1,Ticketing & Access,Do I need to show my ID to enter the site?
+203,1,Ticketing & Access,Can I access the site without a permit during non-working hours?
+204,1,Ticketing & Access,Are there any restrictions on taking heavy equipment onto the site?
+205,1,Ticketing & Access,Do I need to report any damage or issues with the site infrastructure?
+206,1,Ticketing & Access,How do I request access to the site for maintenance work?
+207,1,Ticketing & Access,What is the process for getting permission to hold an event on the site?
+208,1,Ticketing & Access,Can I bring a friend onto the site without their own permit?
+209,1,Ticketing & Access,Are there any specific regulations for accessing the site during peak hours?
+210,1,Ticketing & Access,How do I get to the Olympic village using public transportation?
+211,1,Ticketing & Access,What are the opening hours for public transportation services around the venue?
+212,1,Ticketing & Access,Do I need to show my ticket or ID to use public transportation?
+213,1,Ticketing & Access,Can I take a bike onto the public transportation system?
+214,1,Ticketing & Access,Are there any restrictions on taking luggage onto the public transportation system?
+215,1,Ticketing & Access,How do I report an issue with public transportation services?
+216,1,Ticketing & Access,What is the best route to take from the city center to the venue using public transportation?
+217,1,Ticketing & Access,Do I need to pay for parking if I use a ride-sharing service?
+218,1,Ticketing & Access,"Can I access special public transportation services, such as VIP buses?"
+219,1,Ticketing & Access,Are there any restrictions on taking pets onto public transportation?
+220,1,Ticketing & Access,Where is the nearest parking spot to the venue?
+221,1,Ticketing & Access,How much does it cost to park in different areas around the venue?
+222,1,Ticketing & Access,Do I need to show my ticket or ID to park near the venue?
+223,1,Ticketing & Access,Can I reserve a specific parking spot in advance?
+224,1,Ticketing & Access,Are there any restrictions on taking oversized vehicles onto the parking lot?
+225,1,Ticketing & Access,"How do I report an issue with parking services, such as a broken payment machine?"
+226,1,Ticketing & Access,What is the process for getting permission to park near the site for construction work?
+227,1,Ticketing & Access,Do I need to pay for parking if I have a disability permit?
+228,1,Ticketing & Access,"Can I access special parking areas, such as VIP parking or designated zones for sponsors?"
+229,1,Ticketing & Access,Are there any restrictions on taking trailers onto the parking lot?
+230,1,Ticketing & Access,What is the nearest hotel to the venue?
+231,1,Ticketing & Access,How do I book a room at an Olympic-approved accommodation?
+232,1,Ticketing & Access,Do I need to show my ticket or ID to access my accommodation?
+233,1,Ticketing & Access,Can I bring a friend into my accommodation without their own booking?
+234,1,Ticketing & Access,Are there any restrictions on taking guests into your accommodation during peak hours?
+235,1,Ticketing & Access,"How do I report an issue with accommodation services, such as a broken elevator?"
+236,1,Ticketing & Access,What is the process for getting permission to stay in a hotel room after check-out time?
+237,1,Ticketing & Access,Do I need to pay for breakfast if I have a pre-paid booking?
+238,1,Ticketing & Access,"Can I access special accommodations, such as VIP suites or designated zones for athletes?"
+239,1,Ticketing & Access,Are there any restrictions on taking pets into your accommodation?
+240,1,Ticketing & Access,What are the accessible routes from the city center to the venue?
+241,1,Ticketing & Access,Do I need to show my disability ID to enter the venue?
+242,1,Ticketing & Access,Can I bring an assistance animal into the venue without a special permit?
+243,1,Ticketing & Access,"Are there any restrictions on taking mobility aids, such as wheelchairs or scooters, onto public transportation?"
+244,1,Ticketing & Access,How do I report an issue with accessibility services at the venue?
+245,1,Ticketing & Access,What is the process for getting permission to use a designated accessible parking spot?
+246,1,Ticketing & Access,Do I need to pay extra for accommodations in your hotel room if I have a disability?
+247,1,Ticketing & Access,"Can I access special accommodations, such as VIP suites or designated zones for athletes with disabilities?"
+248,1,Ticketing & Access,Are there any restrictions on taking service animals into your accommodation during peak hours?
+249,1,Ticketing & Access,How do I request assistance from venue staff due to a disability?
+250,2,Sport Events,What's the schedule for the Olympic games?
+251,2,Sport Events,When does the marathon start?
+252,2,Sport Events,Which team is competing in the final?
+253,2,Sport Events,How many medals are awarded in swimming events?
+254,2,Sport Events,Who won the gold medal in athletics?
+255,2,Sport Events,What time is the morning session of the competitions?
+256,2,Sport Events,Can I buy tickets for the event online?
+257,2,Sport Events,Which athletes qualified for the finals?
+258,2,Sport Events,How do I know if my favorite team made it to the playoffs?
+259,2,Sport Events,When does the competition start tomorrow?
+260,2,Sport Events,Where can I see the scores of the Olympic games?
+261,2,Sport Events,What's the format for the competition?
+262,2,Sport Events,Who is competing in the next round?
+263,2,Sport Events,Can I watch the event on TV?
+264,2,Sport Events,What are the rules for the sport events?
+265,2,Sport Events,When does the swimming competition start tomorrow?
+266,2,Sport Events,Which athletes will be competing in the final match?
+267,2,Sport Events,Where can I see the live scores of the Olympic games?
+268,2,Sport Events,What's the schedule for the athletics events tomorrow?
+269,2,Sport Events,Can I buy tickets for the event online now?
+270,2,Sport Events,Who is competing in the next round of the competition?
+271,2,Sport Events,When does the morning session start for the competitions?
+272,2,Sport Events,Which team will be playing in the final match tomorrow?
+273,2,Sport Events,Where can I see the results of the Olympic games?
+274,2,Sport Events,What's the format for the Olympic swimming events?
+275,2,Sport Events,I'm looking for information on athletics event schedules
+276,2,Sport Events,The competition is in the semi-finals phase
+277,2,Sport Events,I need to know the points required for a gold medal in judo
+278,2,Sport Events,What time is the morning session of the competitions tomorrow?
+279,2,Sport Events,Which athletes are competing in swimming events today?
+280,2,Sport Events,Can you tell me about the performance metrics for track and field events?
+281,2,Sport Events,"The competition is in the heats phase, what's next?"
+282,2,Sport Events,I'm interested in learning more about the Olympic schedules for water polo
+283,2,Sport Events,What time is the final match of the Olympics tomorrow?
+284,2,Sport Events,How many points are awarded in the Olympic gymnastics competitions?
+285,2,Sport Events,When does the competition start tomorrow?
+286,2,Sport Events,Which team will be playing in the next round?
+287,2,Sport Events,Can I buy tickets for the event online now?
+288,2,Sport Events,Where can I see the results of the Olympics?
+289,2,Sport Events,What's the format for the Olympic swimming events?
+290,2,Sport Events,Who is competing in the final match?
+291,2,Sport Events,When does the morning session start tomorrow?
+292,2,Sport Events,Which athletes will be competing in the semi-finals phase?
+293,2,Sport Events,Can you tell me about the performance metrics for track and field events?
+294,2,Sport Events,How many medals are awarded in athletics events?
+295,2,Sport Events,What time is the next round of competitions tomorrow?
+296,2,Sport Events,I'm looking for information on Olympic schedules
+297,2,Sport Events,"The competition is in the heats phase, what's next?"
+298,2,Sport Events,Which team will be playing in the final match tomorrow?
+299,2,Sport Events,Can you tell me about the Olympic swimming event format?
+300,2,Sport Events,Where can I see the live scores of the Olympics?
+301,2,Sport Events,What time is the semi-finals phase of competitions tomorrow?
+302,2,Sport Events,Which athletes are competing in track and field events today?
+303,2,Sport Events,How many points are awarded in the Olympic gymnastics competitions?
+304,2,Sport Events,Can I buy tickets for the Olympic event online now?
+305,2,Sport Events,When does the competition start tomorrow morning?
+306,2,Sport Events,Who will be competing in the next round of swimming events?
+307,2,Sport Events,Where can I see the results of the Olympics tomorrow?
+308,2,Sport Events,What time is the final match of the Olympics tomorrow afternoon?
+309,2,Sport Events,Which team will be playing in the semi-finals phase?
+310,2,Sport Events,Can you tell me about the Olympic track and field event format?
+311,2,Sport Events,When does the competition start tomorrow evening?
+312,2,Sport Events,Which athletes are competing in the semi-finals phase today?
+313,2,Sport Events,How many medals are awarded in swimming events?
+314,2,Sport Events,What time is the next round of competitions tomorrow afternoon?
+315,2,Sport Events,I'm looking for information on Olympic schedules
+316,2,Sport Events,"The competition is in the final phase, what's next?"
+317,2,Sport Events,Where can I see the live scores of the Olympics tomorrow morning?
+318,2,Sport Events,Can you tell me about the performance metrics for gymnastics events?
+319,2,Sport Events,Which team will be playing in the final match tomorrow evening?
+320,2,Sport Events,How many points are awarded in track and field events?
+321,2,Sport Events,What time is the semi-finals phase of competitions tomorrow afternoon?
+322,2,Sport Events,I'm looking for information on Olympic swimming event schedules
+323,2,Sport Events,Can you tell me about the Olympic gymnastics event format?
+324,2,Sport Events,Where can I see the results of the Olympics tomorrow evening?
+325,3,Program & Planning,What is the schedule for day one of the Olympic games?
+326,3,Program & Planning,When do the opening ceremonies take place?
+327,3,Program & Planning,How can I find out what time my favorite event starts?
+328,3,Program & Planning,Is there a detailed schedule available online?
+329,3,Program & Planning,Can you provide me with the program for each day of the Olympics?
+330,3,Program & Planning,What events are happening on July 25th?
+331,3,Program & Planning,How long will the closing ceremony last?
+332,3,Program & Planning,When do the Olympic torch relay events take place?
+333,3,Program & Planning,Can I get a list of all scheduled events by date?
+334,3,Program & Planning,What time does the opening ceremony begin?
+335,3,Program & Planning,Are there any changes to the original schedule announced?
+336,3,Program & Planning,How can I plan my day around specific events?
+337,3,Program & Planning,What is the format for the daily schedules?
+338,3,Program & Planning,When do the evening sessions take place?
+339,3,Program & Planning,Can you provide me with a printable version of the program?
+340,3,Program & Planning,Is there an app that shows live updates on the schedule?
+341,3,Program & Planning,How many events are scheduled per day?
+342,3,Program & Planning,When will the final event of each day be held?
+343,3,Program & Planning,What is the procedure for changes to the original schedule?
+344,3,Program & Planning,Can I get a summary of all events by date and time?
+345,3,Program & Planning,Is there a priority list for events?
+346,3,Program & Planning,Will there be any special events on specific dates?
+347,3,Program & Planning,How can I find out if an event has been postponed?
+348,3,Program & Planning,Are there any interactive tools to help me plan my day?
+349,3,Program & Planning,Can you provide me with the schedule for a specific venue?
+350,3,Program & Planning,When do the morning sessions take place?
+351,3,Program & Planning,Is there a summary of all events by duration?
+352,3,Program & Planning,How many hours will the opening ceremony last?
+353,3,Program & Planning,What is the policy on changes to the original schedule?
+354,3,Program & Planning,Will there be any breaks between events?
+355,3,Program & Planning,Can I get a list of all events with their start times?
+356,3,Program & Planning,When do the Olympic games officially begin?
+357,3,Program & Planning,Are there any events happening simultaneously?
+358,3,Program & Planning,How can I find out what's happening on a specific date and time?
+359,3,Program & Planning,Is there an online calendar that shows the schedule?
+360,3,Program & Planning,Will there be any special ceremonies during the Olympics?
+361,3,Program & Planning,Can you provide me with the schedule for each venue?
+362,3,Program & Planning,When do the evening sessions begin and end?
+363,3,Program & Planning,How can I find out if an event has been rescheduled?
+364,3,Program & Planning,Are there any priority events that require earlier access?
+365,3,Program & Planning,Is there a daily planner available online?
+366,3,Program & Planning,Will there be any live updates on the schedule during the Olympics?
+367,3,Program & Planning,Can I get a list of all events by category?
+368,3,Program & Planning,When do the Olympic games officially end?
+369,3,Program & Planning,How can I plan my day around specific categories of events?
+370,3,Program & Planning,Are there any interactive tools to help me find events?
+371,3,Program & Planning,Will there be any special announcements about changes to the schedule?
+372,3,Program & Planning,Can you provide me with the schedule for a specific category of events?
+373,3,Program & Planning,Is there an online tool that allows me to create my own schedule?
+374,3,Program & Planning,How can I get notified when there are changes to the original schedule?
+375,3,Program & Planning,What is the official program for the Olympic games?
+376,3,Program & Planning,Will there be any printed copies available at each venue?
+377,3,Program & Planning,Can you provide me with a summary of all events by category?
+378,3,Program & Planning,Are there any special programs for specific dates or events?
+379,3,Program & Planning,How can I get access to the official program?
+380,3,Program & Planning,Is there an online version of the program that I can view?
+381,3,Program & Planning,Will there be any updates made to the original program?
+382,3,Program & Planning,Can you provide me with a printable version of the event schedule?
+383,3,Program & Planning,Are there any programs available for specific venues or categories?
+384,3,Program & Planning,How many events are included in the official program?
+385,3,Program & Planning,Is there a section for each venue's schedule and events?
+386,3,Program & Planning,Will there be any special announcements about changes to the original program?
+387,3,Program & Planning,Can you provide me with a list of all events by category?
+388,3,Program & Planning,Are there any priority events that require earlier access through the program?
+389,3,Program & Planning,How can I find out what's included in the official program?
+390,3,Program & Planning,Is there an online tool that allows me to create my own event schedule?
+391,3,Program & Planning,Will there be any live updates on the program during the Olympics?
+392,3,Program & Planning,Can you provide me with a printable version of the program by date and time?
+393,3,Program & Planning,Are there any programs available for specific dates or events?
+394,3,Program & Planning,How can I get notified when there are changes to the original program?
+395,3,Program & Planning,Is there an app that allows me to view the official program?
+396,3,Program & Planning,Will there be any special sections for side events or ceremonies?
+397,3,Program & Planning,Can you provide me with a summary of all events by duration?
+398,3,Program & Planning,Are there any programs available for specific categories of events?
+399,3,Program & Planning,How can I find out what's happening on a specific date and time through the program?
+400,3,Program & Planning,Is there an online calendar that shows the official program?
+401,3,Program & Planning,Will there be any priority access to certain events through the program?
+402,3,Program & Planning,Can you provide me with a list of all events by start time?
+403,3,Program & Planning,Are there any programs available for specific venues or categories?
+404,3,Program & Planning,How can I get access to the official program for specific dates?
+405,3,Program & Planning,Is there an online tool that allows me to plan my day around specific events?
+406,3,Program & Planning,Will there be any special announcements about changes to the original program?
+407,3,Program & Planning,Can you provide me with a printable version of the event schedule by date and time?
+408,3,Program & Planning,Are there any priority events that require earlier access through the program?
+409,3,Program & Planning,How can I find out what's included in the official program?
+410,3,Program & Planning,Is there an app that allows me to view the official program for specific dates or events?
+411,3,Program & Planning,Will there be any live updates on the program during the Olympics?
+412,3,Program & Planning,Can you provide me with a list of all events by category and duration?
+413,3,Program & Planning,Are there any programs available for specific categories of events?
+414,3,Program & Planning,How can I get notified when there are changes to the original program?
+415,3,Program & Planning,Is there an online calendar that shows the official program for each venue?
+416,3,Program & Planning,Will there be any priority access to certain events through the program?
+417,3,Program & Planning,Can you provide me with a summary of all events by start time?
+418,3,Program & Planning,Are there any programs available for specific dates or events?
+419,3,Program & Planning,How can I find out what's happening on a specific date and time through the official program?
+420,3,Program & Planning,Is there an online tool that allows me to plan my day around specific categories of events?
+421,3,Program & Planning,Will there be any special sections for side events or ceremonies in the program?
+422,3,Program & Planning,Can you provide me with a printable version of the event schedule by duration?
+423,3,Program & Planning,Are there any priority events that require earlier access through the official program?
+424,3,Program & Planning,How can I get access to the official program for specific categories of events?
+425,3,Program & Planning,What is the format for the opening and closing ceremonies?
+426,3,Program & Planning,Will there be any special ceremonies during the Olympics?
+427,3,Program & Planning,Can you provide me with a summary of all ceremonies by date and time?
+428,3,Program & Planning,Are there any priority access requirements for the ceremonies?
+429,3,Program & Planning,How can I find out what's happening on a specific date through the ceremonies program?
+430,3,Program & Planning,Is there an online calendar that shows the ceremony schedule?
+431,3,Program & Planning,Will there be any live updates on the ceremony program during the Olympics?
+432,3,Program & Planning,Can you provide me with a printable version of the ceremony schedule by date and time?
+433,3,Program & Planning,Are there any programs available for specific dates or events within the ceremonies?
+434,3,Program & Planning,How can I get access to the official ceremony program?
+435,3,Program & Planning,Is there an app that allows me to view the ceremony schedule for each venue?
+436,3,Program & Planning,Will there be any priority access requirements for certain events within the ceremonies?
+437,3,Program & Planning,Can you provide me with a list of all ceremonies by start time and duration?
+438,3,Program & Planning,Are there any programs available for specific categories of events within the ceremonies?
+439,3,Program & Planning,How can I find out what's happening on a specific date through the ceremony program?
+440,3,Program & Planning,Is there an online tool that allows me to plan my day around specific events within the ceremonies?
+441,3,Program & Planning,Will there be any special sections for side events or ceremonies within the official program?
+442,3,Program & Planning,Can you provide me with a printable version of the ceremony schedule by duration?
+443,3,Program & Planning,Are there any priority access requirements for certain events through the official ceremony program?
+444,3,Program & Planning,How can I get notified when there are changes to the original ceremony program?
+445,3,Program & Planning,Is there an online calendar that shows the official ceremony schedule for each venue?
+446,3,Program & Planning,Will there be any live updates on the ceremony program during the Olympics?
+447,3,Program & Planning,Can you provide me with a list of all ceremonies by category and duration?
+448,3,Program & Planning,Are there any programs available for specific categories of events within the ceremonies?
+449,3,Program & Planning,How can I find out what's happening on a specific date through the official ceremony program?
+450,3,Program & Planning,Is there an online tool that allows me to plan my day around specific categories of events within the ceremonies?
+451,3,Program & Planning,Will there be any priority access requirements for certain events through the ceremony program?
+452,3,Program & Planning,Can you provide me with a printable version of the ceremony schedule by start time?
+453,3,Program & Planning,Are there any programs available for specific dates or events within the ceremonies?
+454,3,Program & Planning,How can I get access to the official ceremony program for each venue?
+455,3,Program & Planning,Is there an app that allows me to view the ceremony schedule and program for specific categories of events?
+456,3,Program & Planning,Will there be any special sections for side events or ceremonies within the ceremony program?
+457,3,Program & Planning,"Can you provide me with a list of all ceremonies by date and time, duration, and category?"
+458,3,Program & Planning,Are there any programs available for specific dates or events within the ceremonies?
+459,3,Program & Planning,How can I find out what's happening on a specific date through the official ceremony program?
+460,3,Program & Planning,Is there an online tool that allows me to plan my day around specific events within the ceremonies?
+461,3,Program & Planning,Will there be any priority access requirements for certain events through the ceremony program?
+462,3,Program & Planning,Can you provide me with a printable version of the ceremony schedule by duration?
+463,3,Program & Planning,Are there any programs available for specific categories of events within the ceremonies?
+464,3,Program & Planning,How can I get notified when there are changes to the original ceremony program?
+465,3,Program & Planning,Is there an online calendar that shows the official ceremony schedule and program for each venue?
+466,3,Program & Planning,Will there be any live updates on the ceremony program during the Olympics?
+467,3,Program & Planning,"Can you provide me with a list of all ceremonies by start time, duration, and category?"
+468,3,Program & Planning,Are there any programs available for specific dates or events within the ceremonies?
+469,3,Program & Planning,How can I find out what's happening on a specific date through the official ceremony program?
+470,3,Program & Planning,Is there an online tool that allows me to plan my day around specific categories of events within the ceremonies?
+471,3,Program & Planning,Will there be any priority access requirements for certain events through the ceremony program?
+472,3,Program & Planning,Can you provide me with a printable version of the ceremony schedule by start time?
+473,3,Program & Planning,Are there any programs available for specific dates or events within the ceremonies?
+474,3,Program & Planning,How can I get access to the official ceremony program for each venue?
+475,3,Program & Planning,What are the side events and activities offered during the Olympics?
+476,3,Program & Planning,Will there be any special sections in the official program for side events?
+477,3,Program & Planning,Can you provide me with a summary of all side events by date and time?
+478,3,Program & Planning,Are there any priority access requirements for certain side events?
+479,3,Program & Planning,How can I find out what's happening on a specific date through the side event schedule?
+480,3,Program & Planning,Is there an online calendar that shows the side event program for each venue?
+481,3,Program & Planning,Will there be any live updates on the side event program during the Olympics?
+482,3,Program & Planning,Can you provide me with a printable version of the side event schedule by date and time?
+483,3,Program & Planning,Are there any programs available for specific dates or events within the side events?
+484,3,Program & Planning,How can I get access to the official side event program?
+485,3,Program & Planning,Is there an app that allows me to view the side event schedule and program for each venue?
+486,3,Program & Planning,Will there be any priority access requirements for certain side events through the official program?
+487,3,Program & Planning,Can you provide me with a list of all side events by start time and duration?
+488,3,Program & Planning,Are there any programs available for specific categories of events within the side events?
+489,3,Program & Planning,How can I find out what's happening on a specific date through the side event schedule?
+490,3,Program & Planning,Is there an online tool that allows me to plan my day around specific events within the side events?
+491,3,Program & Planning,Will there be any special sections for ceremonies or side events within the official program?
+492,3,Program & Planning,Can you provide me with a printable version of the side event schedule by duration?
+493,3,Program & Planning,Are there any priority access requirements for certain side events through the official side event program?
+494,3,Program & Planning,How can I get notified when there are changes to the original side event program?
+495,3,Program & Planning,Is there an online calendar that shows the official side event program for each venue?
+496,3,Program & Planning,Will there be any live updates on the side event program during the Olympics?
+497,3,Program & Planning,Can you provide me with a list of all side events by category and duration?
+498,3,Program & Planning,Are there any programs available for specific categories of events within the side events?
+499,3,Program & Planning,How can I find out what's happening on a specific date through the official side event program?
+500,3,Program & Planning,Is there an online tool that allows me to plan my day around specific events within the side events?
+501,3,Program & Planning,Will there be any priority access requirements for certain side events through the side event program?
+502,3,Program & Planning,Can you provide me with a printable version of the side event schedule by start time?
+503,3,Program & Planning,Are there any programs available for specific dates or events within the side events?
+504,3,Program & Planning,How can I get access to the official side event program for each venue?
+505,3,Program & Planning,Is there an app that allows me to view the side event schedule and program for specific categories of events?
+506,3,Program & Planning,Will there be any special sections for ceremonies or side events within the side event program?
+507,3,Program & Planning,"Can you provide me with a list of all side events by date and time, duration, and category?"
+508,3,Program & Planning,Are there any programs available for specific dates or events within the side events?
+509,3,Program & Planning,How can I find out what's happening on a specific date through the official side event program?
+510,3,Program & Planning,Is there an online tool that allows me to plan my day around specific events within the side events?
+511,3,Program & Planning,Will there be any priority access requirements for certain side events through the side event program?
+512,3,Program & Planning,Can you provide me with a printable version of the side event schedule by duration?
+513,3,Program & Planning,Are there any programs available for specific categories of events within the side events?
+514,3,Program & Planning,How can I get notified when there are changes to the original side event program?
+515,3,Program & Planning,Is there an online calendar that shows the official side event program for each venue?
+516,3,Program & Planning,Will there be any live updates on the side event program during the Olympics?
+517,3,Program & Planning,"Can you provide me with a list of all side events by start time, duration, and category?"
+518,3,Program & Planning,Are there any programs available for specific dates or events within the side events?
+519,3,Program & Planning,How can I find out what's happening on a specific date through the official side event program?
+520,3,Program & Planning,Is there an online tool that allows me to plan my day around specific events within the side events?
+521,3,Program & Planning,Will there be any priority access requirements for certain side events through the side event program?
+522,3,Program & Planning,Can you provide me with a printable version of the side event schedule by start time?
+523,3,Program & Planning,Are there any programs available for specific dates or events within the side events?
+524,3,Program & Planning,How can I get access to the official side event program for each venue?
+525,4,Services & Amenities,Is there wifi available near the stadium?
+526,4,Services & Amenities,Can I store my luggage at the information desk?
+527,4,Services & Amenities,Where can I find a medical center if I get injured?
+528,4,Services & Amenities,How do I contact lost and found if I lose something?
+529,4,Services & Amenities,Are there any help points for spectators?
+530,4,Services & Amenities,Can I access medical services without an ID?
+531,4,Services & Amenities,Is internet connectivity available throughout the site?
+532,4,Services & Amenities,What are the service hours for storage facilities?
+533,4,Services & Amenities,Where can I find a service location for assistance?
+534,4,Services & Amenities,Can I get help with finding my lost belongings?
+535,4,Services & Amenities,Are there any lockers available for rent?
+536,4,Services & Amenities,How do I report an incident to security services?
+537,4,Services & Amenities,Is there a 24/7 information point for emergencies?
+538,4,Services & Amenities,Can I access storage facilities without pre-booking?
+539,4,Services & Amenities,Where can I find a list of service locations and their hours?
+540,4,Services & Amenities,Are there any free medical services available on site?
+541,4,Services & Amenities,How do I get help with finding my way around the site?
+542,4,Services & Amenities,Is internet connectivity available in all areas of the site?
+543,4,Services & Amenities,Can I store my bike at a secure facility?
+544,4,Services & Amenities,Where can I find information about lost and found procedures?
+545,4,Services & Amenities,Are there any restrictions on accessing storage facilities?
+546,4,Services & Amenities,Can I get assistance from medical services if I have a disability?
+547,4,Services & Amenities,How do I contact service staff for help with a problem?
+548,4,Services & Amenities,Is there a designated area for service staff to take breaks?
+549,4,Services & Amenities,Where can I find information about service hours and locations?
+550,4,Services & Amenities,Are there any specific rules for accessing lockers?
+551,4,Services & Amenities,Can I get assistance from information points if I speak a different language?
+552,4,Services & Amenities,How do I report a problem with internet connectivity?
+553,4,Services & Amenities,Is there a lost and found section for spectators to search through?
+554,4,Services & Amenities,Where can I find information about service staff and their roles?
+555,4,Services & Amenities,Are there any restrictions on accessing medical services?
+556,4,Services & Amenities,Can I get help from service staff if I'm having trouble finding my way around the site?
+557,4,Services & Amenities,How do I contact service staff if I have a question or concern?
+558,4,Services & Amenities,Is there a designated area for service staff to provide assistance?
+559,4,Services & Amenities,Where can I find information about service hours and availability?
+560,4,Services & Amenities,Are there any specific rules for accessing storage facilities?
+561,4,Services & Amenities,Can I get assistance from medical services if I'm experiencing a medical emergency?
+562,4,Services & Amenities,How do I report a problem with lost and found procedures?
+563,4,Services & Amenities,Is there a designated area for service staff to handle customer complaints?
+564,4,Services & Amenities,Where can I find information about service staff and their roles?
+565,4,Services & Amenities,Are there any restrictions on accessing internet connectivity?
+566,4,Services & Amenities,Can I get help from service staff if I'm experiencing technical difficulties with my device?
+567,4,Services & Amenities,How do I contact service staff if I need assistance with a problem?
+568,4,Services & Amenities,Is there a designated area for service staff to provide technical support?
+569,4,Services & Amenities,Where can I find information about service hours and availability?
+570,4,Services & Amenities,Are there any specific rules for accessing lockers?
+571,4,Services & Amenities,Can I get assistance from medical services if I have a disability or require special care?
+572,4,Services & Amenities,How do I report a problem with lost and found procedures?
+573,4,Services & Amenities,Is there a designated area for service staff to handle customer complaints?
+574,4,Services & Amenities,Where can I find information about service staff and their roles?
+575,4,Services & Amenities,Where can I find the nearest wifi point?
+576,4,Services & Amenities,What should I do if I lose my ticket?
+577,4,Services & Amenities,How do I access medical services on site?
+578,4,Services & Amenities,Is there a designated area for storing my luggage?
+579,4,Services & Amenities,Can I get help from information points if I speak a different language?
+580,4,Services & Amenities,What are the procedures for lost and found items?
+581,4,Services & Amenities,Where can I find assistance with internet connectivity?
+582,4,Services & Amenities,How do I contact service staff for help with a problem?
+583,4,Services & Amenities,Is there a designated area for service staff to take breaks?
+584,4,Services & Amenities,Can I get assistance from medical services if I have a disability?
+585,4,Services & Amenities,What should I do if I lose something on the site?
+586,4,Services & Amenities,Where can I find information about storage facilities and their hours?
+587,4,Services & Amenities,How do I access lockers and storage facilities?
+588,4,Services & Amenities,Is there a designated area for service staff to handle customer complaints?
+589,4,Services & Amenities,Can I get help from information points if I have a question or concern?
+590,4,Services & Amenities,What are the procedures for reporting lost and found items?
+591,4,Services & Amenities,Where can I find assistance with medical services?
+592,4,Services & Amenities,How do I contact service staff for help with finding my way around the site?
+593,4,Services & Amenities,Is there a designated area for service staff to provide technical support?
+594,4,Services & Amenities,Can I get assistance from medical services if I'm experiencing a medical emergency?
+595,4,Services & Amenities,What should I do if I have a problem with internet connectivity?
+596,4,Services & Amenities,Where can I find information about service hours and locations?
+597,4,Services & Amenities,How do I access storage facilities without pre-booking?
+598,4,Services & Amenities,Is there a designated area for service staff to handle customer complaints?
+599,4,Services & Amenities,Can I get help from information points if I speak a different language?
+600,4,Services & Amenities,What are the procedures for reporting lost and found items?
+601,4,Services & Amenities,Where can I find assistance with medical services?
+602,4,Services & Amenities,How do I contact service staff for help with finding my way around the site?
+603,4,Services & Amenities,Is there a designated area for service staff to provide technical support?
+604,4,Services & Amenities,Can I get assistance from medical services if I have a disability?
+605,4,Services & Amenities,What should I do if I lose something on the site?
+606,4,Services & Amenities,Where can I find information about storage facilities and their hours?
+607,4,Services & Amenities,How do I access lockers and storage facilities?
+608,4,Services & Amenities,Is there a designated area for service staff to handle customer complaints?
+609,4,Services & Amenities,Can I get help from information points if I have a question or concern?
+610,4,Services & Amenities,What are the procedures for reporting lost and found items?
+611,4,Services & Amenities,Where can I find assistance with medical services?
+612,4,Services & Amenities,How do I contact service staff for help with finding my way around the site?
+613,4,Services & Amenities,Is there a designated area for service staff to provide technical support?
+614,4,Services & Amenities,Can I get assistance from medical services if I'm experiencing a medical emergency?
+615,4,Services & Amenities,What should I do if I have a problem with internet connectivity?
+616,4,Services & Amenities,Where can I find information about service hours and locations?
+617,4,Services & Amenities,How do I access storage facilities without pre-booking?
+618,4,Services & Amenities,Is there a designated area for service staff to handle customer complaints?
+619,4,Services & Amenities,Can I get help from information points if I speak a different language?
+620,4,Services & Amenities,What are the procedures for reporting lost and found items?
+621,4,Services & Amenities,Where can I find assistance with medical services?
+622,4,Services & Amenities,How do I contact service staff for help with finding my way around the site?
+623,4,Services & Amenities,Is there a designated area for service staff to provide technical support?
+624,4,Services & Amenities,Can I get assistance from medical services if I have a disability?
+625,4,Services & Amenities,The information desk is located near the main entrance
+626,4,Services & Amenities,"Medical services are available at the medical center, located on the first floor"
+627,4,Services & Amenities,"Lost and found items can be accessed through the service point, located near the exit"
+628,4,Services & Amenities,"Storage facilities are available for rent at the storage building, located behind the stadium"
+629,4,Services & Amenities,"Help points are available throughout the site, with staff trained to assist spectators"
+630,4,Services & Amenities,"The wifi network is available in all areas of the site, including the stadium and surrounding buildings"
+631,4,Services & Amenities,"Service locations include the information desk, medical center, lost and found, and storage facilities"
+632,4,Services & Amenities,"Amenity types include wifi network, storage facility, locker key, first aid, and service staff"
+633,4,Services & Amenities,"Equipment references include bike racks, wheelchair rentals, and device charging stations"
+634,4,Services & Amenities,Lost items can be reported to the lost and found team through the service point
+635,4,Services & Amenities,"Service hours vary by location, with some services available 24/7"
+636,4,Services & Amenities,The main entrance is located near the information desk
+637,4,Services & Amenities,Medical services are staffed by trained medical professionals
+638,4,Services & Amenities,Storage facilities have designated areas for storing luggage and equipment
+639,4,Services & Amenities,Help points are equipped with phones and tablets to assist spectators
+640,4,Services & Amenities,"The wifi network has a high-speed connection, suitable for streaming video content"
+641,4,Services & Amenities,"Service locations include the service point, lost and found, storage facilities, and bike racks"
+642,4,Services & Amenities,"Amenity types include device charging stations, wheelchair rentals, and bike racks"
+643,4,Services & Amenities,"Equipment references include first aid kits, medical equipment, and staff uniforms"
+644,4,Services & Amenities,Lost items can be reported to the lost and found team through the service point
+645,4,Services & Amenities,"Service hours vary by location, with some services available 24/7"
+646,4,Services & Amenities,The main entrance is located near the information desk
+647,4,Services & Amenities,Medical services are staffed by trained medical professionals
+648,4,Services & Amenities,Storage facilities have designated areas for storing luggage and equipment
+649,4,Services & Amenities,Help points are equipped with phones and tablets to assist spectators
+650,4,Services & Amenities,"The wifi network has a high-speed connection, suitable for streaming video content"
+651,4,Services & Amenities,"Service locations include the service point, lost and found, storage facilities, and bike racks"
+652,4,Services & Amenities,"Amenity types include device charging stations, wheelchair rentals, and bike racks"
+653,4,Services & Amenities,"Equipment references include first aid kits, medical equipment, and staff uniforms"
+654,4,Services & Amenities,Lost items can be reported to the lost and found team through the service point
+655,4,Services & Amenities,"Service hours vary by location, with some services available 24/7"
+656,4,Services & Amenities,The main entrance is located near the information desk
+657,4,Services & Amenities,Medical services are staffed by trained medical professionals
+658,4,Services & Amenities,Storage facilities have designated areas for storing luggage and equipment
+659,4,Services & Amenities,Help points are equipped with phones and tablets to assist spectators
+660,4,Services & Amenities,"The wifi network has a high-speed connection, suitable for streaming video content"
+661,4,Services & Amenities,"Service locations include the service point, lost and found, storage facilities, and bike racks"
+662,4,Services & Amenities,"Amenity types include device charging stations, wheelchair rentals, and bike racks"
+663,4,Services & Amenities,"Equipment references include first aid kits, medical equipment, and staff uniforms"
+664,4,Services & Amenities,Lost items can be reported to the lost and found team through the service point
+665,4,Services & Amenities,"Service hours vary by location, with some services available 24/7"
+666,4,Services & Amenities,The main entrance is located near the information desk
+667,4,Services & Amenities,Medical services are staffed by trained medical professionals
+668,4,Services & Amenities,Storage facilities have designated areas for storing luggage and equipment
+669,4,Services & Amenities,Help points are equipped with phones and tablets to assist spectators
+670,4,Services & Amenities,"The wifi network has a high-speed connection, suitable for streaming video content"
+671,4,Services & Amenities,"Service locations include the service point, lost and found, storage facilities, and bike racks"
+672,4,Services & Amenities,"Amenity types include device charging stations, wheelchair rentals, and bike racks"
+673,4,Services & Amenities,"Equipment references include first aid kits, medical equipment, and staff uniforms"
+674,4,Services & Amenities,Lost items can be reported to the lost and found team through the service point
+675,5,Security & Emergencies,What is the security policy at the Olympic games?
+676,5,Security & Emergencies,How can I report a safety concern?
+677,5,Security & Emergencies,Are there any specific areas that are off-limits to spectators?
+678,5,Security & Emergencies,Can I bring my phone charger to the venue?
+679,5,Security & Emergencies,Is it allowed to take photos with a drone?
+680,5,Security & Emergencies,What are the consequences of not following security rules?
+681,5,Security & Emergencies,Can I leave the venue and re-enter later?
+682,5,Security & Emergencies,How do I know if an area is secure or not?
+683,5,Security & Emergencies,Are there any restrictions on carrying liquids or gels?
+684,5,Security & Emergencies,Can I bring my own food and drinks to the venue?
+685,5,Security & Emergencies,Is there a lost and found service for misplaced items?
+686,5,Security & Emergencies,What should I do in case of a power outage?
+687,5,Security & Emergencies,Are there any specific rules for spectators with disabilities?
+688,5,Security & Emergencies,Can I bring a portable speaker to the venue?
+689,5,Security & Emergencies,How can I get help if I'm feeling unwell or injured?
+690,5,Security & Emergencies,Are there any areas that are restricted due to construction?
+691,5,Security & Emergencies,What is the procedure for reporting a lost child?
+692,5,Security & Emergencies,Can I bring my pet to the venue?
+693,5,Security & Emergencies,Is it allowed to use a selfie stick in the venue?
+694,5,Security & Emergencies,How can I get assistance if I'm having trouble navigating the area?
+695,5,Security & Emergencies,Are there any specific rules for spectators with medical conditions?
+696,5,Security & Emergencies,What is the procedure for getting help during an emergency?
+697,5,Security & Emergencies,Can I bring my own chair or mobility aid to the venue?
+698,5,Security & Emergencies,Is it allowed to use a wheelchair or mobility scooter in the venue?
+699,5,Security & Emergencies,How can I get assistance if I'm having trouble finding my seat?
+700,5,Security & Emergencies,Are there any areas that are restricted due to inclement weather?
+701,5,Security & Emergencies,What is the procedure for reporting a medical concern?
+702,5,Security & Emergencies,Can I bring my own food and drinks for my child?
+703,5,Security & Emergencies,Is it allowed to take photos or videos in certain areas of the venue?
+704,5,Security & Emergencies,How can I get help if I'm feeling anxious or stressed?
+705,5,Security & Emergencies,Are there any specific rules for spectators with hearing impairments?
+706,5,Security & Emergencies,What is the procedure for getting help during an evacuation?
+707,5,Security & Emergencies,Can I bring my own chair or mobility aid to the venue's seating areas?
+708,5,Security & Emergencies,Is it allowed to use a wheelchair or mobility scooter in the venue's seating areas?
+709,5,Security & Emergencies,How can I get assistance if I'm having trouble finding my way around the venue?
+710,5,Security & Emergencies,Are there any areas that are restricted due to safety concerns?
+711,5,Security & Emergencies,What is the procedure for reporting a lost item?
+712,5,Security & Emergencies,Can I bring my own food and drinks to the venue's cafes or restaurants?
+713,5,Security & Emergencies,Is it allowed to take photos or videos in certain areas of the venue's seating areas?
+714,5,Security & Emergencies,How can I get help if I'm feeling unwell or injured?
+715,5,Security & Emergencies,Are there any specific rules for spectators with visual impairments?
+716,5,Security & Emergencies,What is the procedure for getting help during an emergency?
+717,5,Security & Emergencies,Can I bring my own chair or mobility aid to the venue's standing areas?
+718,5,Security & Emergencies,Is it allowed to use a wheelchair or mobility scooter in the venue's standing areas?
+719,5,Security & Emergencies,How can I get assistance if I'm having trouble finding my seat?
+720,5,Security & Emergencies,Are there any areas that are restricted due to inclement weather?
+721,5,Security & Emergencies,What is the procedure for reporting a medical concern?
+722,5,Security & Emergencies,Can I bring my own food and drinks for my child?
+723,5,Security & Emergencies,Is it allowed to take photos or videos in certain areas of the venue's standing areas?
+724,5,Security & Emergencies,How can I get help if I'm feeling anxious or stressed?
+725,5,Security & Emergencies,What are the security measures taken at the Olympic games?
+726,5,Security & Emergencies,Can I bring any prohibited items into the venue?
+727,5,Security & Emergencies,Where is the nearest emergency exit located?
+728,5,Security & Emergencies,Who do I contact in case of an emergency?
+729,5,Security & Emergencies,Is it permitted to take photos with a camera or phone?
+730,5,Security & Emergencies,How do I know if an area is secure or not?
+731,5,Security & Emergencies,What should I do if I witness any suspicious behavior?
+732,5,Security & Emergencies,Can I bring my own food and drinks into the venue?
+733,5,Security & Emergencies,Where are the security checkpoints located?
+734,5,Security & Emergencies,Is there a lost and found service for misplaced items?
+735,5,Security & Emergencies,What are the consequences of not following security rules?
+736,5,Security & Emergencies,How can I get assistance during an evacuation?
+737,5,Security & Emergencies,Are there any restrictions on carrying liquids or gels?
+738,5,Security & Emergencies,Can I bring my own chair or mobility aid to the venue?
+739,5,Security & Emergencies,Who do I contact if I have a medical concern?
+740,5,Security & Emergencies,Where is the nearest first aid point located?
+741,5,Security & Emergencies,What are the security protocols for spectators with disabilities?
+742,5,Security & Emergencies,Is it allowed to take photos or videos in certain areas of the venue?
+743,5,Security & Emergencies,Can I bring my pet to the venue?
+744,5,Security & Emergencies,How can I get help if I'm feeling unwell or injured?
+745,5,Security & Emergencies,Are there any specific rules for spectators with medical conditions?
+746,5,Security & Emergencies,What is the procedure for reporting a lost child?
+747,5,Security & Emergencies,Where are the security cameras located?
+748,5,Security & Emergencies,Is it allowed to use a selfie stick in the venue?
+749,5,Security & Emergencies,Who do I contact in case of an emergency?
+750,5,Security & Emergencies,How can I get assistance if I'm having trouble navigating the area?
+751,5,Security & Emergencies,Are there any areas that are restricted due to construction?
+752,5,Security & Emergencies,What is the procedure for getting help during an emergency?
+753,5,Security & Emergencies,Can I bring my own food and drinks to the venue's cafes or restaurants?
+754,5,Security & Emergencies,Where are the security checkpoints located?
+755,5,Security & Emergencies,Who do I contact if I have a medical concern?
+756,5,Security & Emergencies,Is it allowed to take photos or videos in certain areas of the venue's standing areas?
+757,5,Security & Emergencies,What is the procedure for reporting a lost item?
+758,5,Security & Emergencies,Can I bring my own chair or mobility aid to the venue's seating areas?
+759,5,Security & Emergencies,How can I get help if I'm feeling anxious or stressed?
+760,5,Security & Emergencies,Are there any specific rules for spectators with hearing impairments?
+761,5,Security & Emergencies,Where are the security cameras located?
+762,5,Security & Emergencies,What is the procedure for getting help during an evacuation?
+763,5,Security & Emergencies,Can I bring my own food and drinks to the venue's standing areas?
+764,5,Security & Emergencies,Who do I contact in case of an emergency?
+765,5,Security & Emergencies,Is it allowed to use a wheelchair or mobility scooter in the venue?
+766,5,Security & Emergencies,Where are the security checkpoints located?
+767,5,Security & Emergencies,What is the procedure for reporting a lost child?
+768,5,Security & Emergencies,Can I bring my own chair or mobility aid to the venue's seating areas?
+769,5,Security & Emergencies,How can I get help if I'm having trouble finding my way around the venue?
+770,5,Security & Emergencies,Are there any areas that are restricted due to safety concerns?
+771,5,Security & Emergencies,Where are the security cameras located?
+772,5,Security & Emergencies,What is the procedure for reporting a medical concern?
+773,5,Security & Emergencies,Can I bring my own food and drinks to the venue's cafes or restaurants?
+774,5,Security & Emergencies,Who do I contact in case of an emergency?
+775,5,Security & Emergencies,What is the phone number for the Olympic games' emergency services?
+776,5,Security & Emergencies,Where are the metal detectors located at the venue?
+777,5,Security & Emergencies,Are there any specific areas that are restricted due to security concerns?
+778,5,Security & Emergencies,Can I bring my own medical equipment or supplies into the venue?
+779,5,Security & Emergencies,What are the consequences of not following security protocols?
+780,5,Security & Emergencies,How can I identify a security checkpoint or emergency exit?
+781,5,Security & Emergencies,Are there any restrictions on carrying medications or medical devices?
+782,5,Security & Emergencies,Where are the security cameras located at the venue?
+783,5,Security & Emergencies,Can I bring my own wheelchair or mobility scooter into the venue?
+784,5,Security & Emergencies,What is the procedure for reporting a lost item?
+785,5,Security & Emergencies,How can I get assistance if I'm feeling unwell or injured?
+786,5,Security & Emergencies,Are there any specific rules for spectators with disabilities in the venue?
+787,5,Security & Emergencies,Where are the emergency exits located at the venue?
+788,5,Security & Emergencies,Can I bring my own chair or mobility aid to the venue's standing areas?
+789,5,Security & Emergencies,What is the phone number for the Olympic games' lost and found service?
+790,5,Security & Emergencies,How can I identify a security checkpoint or emergency exit?
+791,5,Security & Emergencies,Are there any restrictions on carrying food or drinks into the venue?
+792,5,Security & Emergencies,Where are the security cameras located at the venue?
+793,5,Security & Emergencies,Can I bring my own wheelchair or mobility scooter into the venue?
+794,5,Security & Emergencies,What is the procedure for reporting a medical concern?
+795,5,Security & Emergencies,How can I get assistance during an evacuation?
+796,5,Security & Emergencies,Are there any specific rules for spectators with hearing impairments in the venue?
+797,5,Security & Emergencies,Where are the emergency exits located at the venue?
+798,5,Security & Emergencies,Can I bring my own chair or mobility aid to the venue's seating areas?
+799,5,Security & Emergencies,What is the phone number for the Olympic games' security services?
+800,5,Security & Emergencies,How can I identify a security checkpoint or emergency exit?
+801,5,Security & Emergencies,Are there any restrictions on carrying medications or medical devices?
+802,5,Security & Emergencies,Where are the security cameras located at the venue?
+803,5,Security & Emergencies,Can I bring my own wheelchair or mobility scooter into the venue?
+804,5,Security & Emergencies,What is the procedure for reporting a lost item?
+805,5,Security & Emergencies,How can I get assistance if I'm feeling anxious or stressed?
+806,5,Security & Emergencies,Are there any specific rules for spectators with visual impairments in the venue?
+807,5,Security & Emergencies,Where are the emergency exits located at the venue?
+808,5,Security & Emergencies,Can I bring my own chair or mobility aid to the venue's standing areas?
+809,5,Security & Emergencies,What is the phone number for the Olympic games' lost and found service?
+810,5,Security & Emergencies,How can I identify a security checkpoint or emergency exit?
+811,5,Security & Emergencies,Are there any restrictions on carrying food or drinks into the venue?
+812,5,Security & Emergencies,Where are the security cameras located at the venue?
+813,5,Security & Emergencies,Can I bring my own wheelchair or mobility scooter into the venue?
+814,5,Security & Emergencies,What is the procedure for reporting a medical concern?
+815,5,Security & Emergencies,How can I get assistance during an evacuation?
+816,5,Security & Emergencies,Are there any specific rules for spectators with hearing impairments in the venue?
+817,5,Security & Emergencies,Where are the emergency exits located at the venue?
+818,5,Security & Emergencies,Can I bring my own chair or mobility aid to the venue's seating areas?
+819,5,Security & Emergencies,What is the phone number for the Olympic games' security services?
+820,5,Security & Emergencies,How can I identify a security checkpoint or emergency exit?
+821,5,Security & Emergencies,Are there any restrictions on carrying medications or medical devices?
+822,5,Security & Emergencies,Where are the security cameras located at the venue?
+823,5,Security & Emergencies,Can I bring my own wheelchair or mobility scooter into the venue?
+824,5,Security & Emergencies,What is the procedure for reporting a lost item?
+825,6,Rules & Sport,What are the rules for spectators in the Olympic area?
+826,6,Rules & Sport,How do you get a penalty in the competition?
+827,6,Rules & Sport,What is the difference between a warning and a penalty?
+828,6,Rules & Sport,Can you appeal a referee's decision?
+829,6,Rules & Sport,What happens if there is a tie in the final score?
+830,6,Rules & Sport,Are there any specific rules for athletes with disabilities?
+831,6,Rules & Sport,Can spectators participate in the Olympic events?
+832,6,Rules & Sport,How do athletes get disqualified from the competition?
+833,6,Rules & Sport,What are the consequences of breaking the rules?
+834,6,Rules & Sport,Is there an official rulebook for the Olympic games?
+835,6,Rules & Sport,What is the process for filing a complaint about a rule infraction?
+836,6,Rules & Sport,Are there any age restrictions for participating in the Olympic events?
+837,6,Rules & Sport,Can spectators ask athletes questions during the competition?
+838,6,Rules & Sport,How do you report a rule violation during the game?
+839,6,Rules & Sport,Is there a appeals committee to review disputed calls?
+840,6,Rules & Sport,What are the rules for spectators in the Olympic area regarding photography and videography?
+841,6,Rules & Sport,How do athletes get notified of their eligibility for the Olympics?
+842,6,Rules & Sport,Can spectators purchase Olympic merchandise at the event?
+843,6,Rules & Sport,Are there any specific rules for spectators with disabilities?
+844,6,Rules & Sport,How do you request a rule clarification from the officials?
+845,6,Rules & Sport,What is the protocol for reporting an injury during the competition?
+846,6,Rules & Sport,Can spectators participate in the opening or closing ceremonies?
+847,6,Rules & Sport,How do athletes get informed of their qualification status?
+848,6,Rules & Sport,Are there any special rules for spectators who are minors?
+849,6,Rules & Sport,Can spectators request to meet Olympic athletes?
+850,6,Rules & Sport,What is the process for resolving a dispute between spectators and officials?
+851,6,Rules & Sport,Are there any specific rules for spectators with medical conditions?
+852,6,Rules & Sport,How do athletes receive their Olympic medals?
+853,6,Rules & Sport,Can spectators get an autograph from an Olympic athlete?
+854,6,Rules & Sport,Is there an official Olympic app for spectators to stay updated?
+855,6,Rules & Sport,What is the protocol for reporting a lost or stolen item during the competition?
+856,6,Rules & Sport,Can spectators request to take part in a pre-game ceremony?
+857,6,Rules & Sport,How do athletes receive their Olympic credentials?
+858,6,Rules & Sport,Are there any specific rules for spectators who are deaf or hard of hearing?
+859,6,Rules & Sport,Can spectators get an Olympic flag or banner signed by an athlete?
+860,6,Rules & Sport,What is the process for requesting special accommodations for spectators with disabilities?
+861,6,Rules & Sport,Are there any specific rules for spectators who have a medical condition requiring oxygen therapy?
+862,6,Rules & Sport,How do athletes get informed about their travel arrangements to the Olympics?
+863,6,Rules & Sport,Can spectators request to be part of the Olympic torch relay?
+864,6,Rules & Sport,Is there an official Olympic social media account for spectators to interact?
+865,6,Rules & Sport,What is the protocol for reporting a lost child during the competition?
+866,6,Rules & Sport,Can spectators participate in an Olympic fan engagement program?
+867,6,Rules & Sport,How do athletes get informed about their accommodation arrangements at the Olympics?
+868,6,Rules & Sport,Are there any specific rules for spectators who have a medical condition requiring medication?
+869,6,Rules & Sport,Can spectators request to meet with an Olympic committee member?
+870,6,Rules & Sport,What is the process for resolving a dispute between two or more spectators?
+871,6,Rules & Sport,Are there any specific rules for spectators who are blind or have low vision?
+872,6,Rules & Sport,How do athletes get informed about their participation in the closing ceremony?
+873,6,Rules & Sport,Can spectators participate in an Olympic trivia game show?
+874,6,Rules & Sport,Is there an official Olympic podcast for spectators to stay updated?
+875,6,Rules & Sport,Who holds the record for the most gold medals won in a single Olympics?
+876,6,Rules & Sport,What is the current world record for the 100m dash?
+877,6,Rules & Sport,How do athletes break or equal a world record at the Olympics?
+878,6,Rules & Sport,Are there any records for Olympic medal counts by country?
+879,6,Rules & Sport,Can spectators see live updates of Olympic records being set?
+880,6,Rules & Sport,Who holds the record for the most consecutive Olympic appearances?
+881,6,Rules & Sport,What is the process for verifying an Olympic record?
+882,6,Rules & Sport,Are there any records for Olympic medals won by women?
+883,6,Rules & Sport,How do athletes get notified if they have broken a world record?
+884,6,Rules & Sport,Is there an official Olympic hall of fame for athletes with exceptional records?
+885,6,Rules & Sport,Who holds the record for the most gold medals won in a single sport (e
+886,6,Rules & Sport,What is the current record for the longest time taken to complete an Olympic event?
+887,6,Rules & Sport,How do athletes qualify for the Olympics if they have broken a world record?
+888,6,Rules & Sport,Are there any records for Olympic medal counts by age group?
+889,6,Rules & Sport,Can spectators see a list of all-time Olympic records?
+890,6,Rules & Sport,Who holds the record for the most medals won in a single Olympics while competing in multiple events?
+891,6,Rules & Sport,What is the process for appealing an Olympic record decision?
+892,6,Rules & Sport,Are there any records for Olympic medals won by athletes with disabilities?
+893,6,Rules & Sport,How do athletes get informed about their ranking in the Olympic standings?
+894,6,Rules & Sport,Is there an official Olympic database of all-time Olympic records?
+895,6,Rules & Sport,Who holds the record for the most consecutive Olympic medals won in a single sport (e
+896,6,Rules & Sport,What is the current record for the highest score achieved in an Olympic event?
+897,6,Rules & Sport,How do athletes get notified if they have set a new personal best at the Olympics?
+898,6,Rules & Sport,Are there any records for Olympic medal counts by country and region?
+899,6,Rules & Sport,Can spectators see live updates of Olympic records being challenged?
+900,6,Rules & Sport,Who holds the record for the most medals won in a single Olympics while competing as part of a team?
+901,6,Rules & Sport,What is the process for verifying an Olympic record that has been disputed?
+902,6,Rules & Sport,Are there any records for Olympic medal counts by sport (e
+903,6,Rules & Sport,How do athletes get informed about their eligibility to compete in the Olympics based on their world record status?
+904,6,Rules & Sport,Is there an official Olympic website featuring all-time Olympic records?
+905,6,Rules & Sport,Who holds the record for the most gold medals won in a single Olympics while competing as part of a team?
+906,6,Rules & Sport,What is the current record for the longest time taken to complete an Olympic event by a woman?
+907,6,Rules & Sport,How do athletes get notified if they have broken a world record while competing at the Paralympics?
+908,6,Rules & Sport,Are there any records for Olympic medal counts by age group and sport (e
+909,6,Rules & Sport,Can spectators see live updates of Olympic records being set in real-time?
+910,6,Rules & Sport,Who holds the record for the most medals won in a single Olympics while competing as part of a team and breaking a world record?
+911,6,Rules & Sport,What is the process for appealing an Olympic record decision that has been made at the Paralympics?
+912,6,Rules & Sport,"Are there any records for Olympic medal counts by country, region, and sport (e"
+913,6,Rules & Sport,How do athletes get informed about their ranking in the Olympic standings based on their world record status?
+914,6,Rules & Sport,Is there an official Olympic app featuring all-time Olympic records?
+915,6,Rules & Sport,Who holds the record for the most gold medals won in a single Olympics while competing as part of a team and breaking multiple world records?
+916,6,Rules & Sport,What is the current record for the highest score achieved in an Olympic event by a man?
+917,6,Rules & Sport,How do athletes get notified if they have set a new personal best at the Paralympics?
+918,6,Rules & Sport,"Are there any records for Olympic medal counts by country, region, age group, and sport (e"
+919,6,Rules & Sport,Can spectators see live updates of Olympic records being challenged in real-time?
+920,6,Rules & Sport,Who holds the record for the most medals won in a single Olympics while competing as part of a team and breaking multiple world records and setting a new personal best?
+921,6,Rules & Sport,What is the process for verifying an Olympic record that has been disputed at the Paralympics?
+922,6,Rules & Sport,"Are there any records for Olympic medal counts by country, region, age group, sport, and event (e"
+923,6,Rules & Sport,How do athletes get informed about their eligibility to compete in the Olympics based on their world record status and personal best performance?
+924,6,Rules & Sport,Is there an official Olympic website featuring all-time Olympic records and real-time updates?
+925,6,Rules & Sport,What is the current world record for the highest score achieved in a single Olympic event (e
+926,6,Rules & Sport,How do athletes break or equal a world record in terms of their score at the Olympics?
+927,6,Rules & Sport,Are there any records for Olympic medal counts by country based on total scores?
+928,6,Rules & Sport,Can spectators see live updates of Olympic scores being set and challenged?
+929,6,Rules & Sport,What is the process for verifying an Olympic score that has been disputed?
+930,6,Rules & Sport,How do athletes get notified if they have broken a world record in terms of their score at the Paralympics?
+931,6,Rules & Sport,Are there any records for Olympic medal counts by age group based on total scores?
+932,6,Rules & Sport,Can spectators see a list of all-time Olympic high scores?
+933,6,Rules & Sport,What is the current record for the highest average score achieved over multiple Olympic events (e
+934,6,Rules & Sport,How do athletes get informed about their ranking in the Olympic standings based on their score?
+935,6,Rules & Sport,"Are there any records for Olympic medal counts by country, region, and sport based on total scores?"
+936,6,Rules & Sport,Who holds the record for the most gold medals won in a single Olympics while competing as part of a team and breaking multiple world records and setting a new personal best?
+937,6,Rules & Sport,What is the process for appealing an Olympic score decision that has been made at the Paralympics?
+938,6,Rules & Sport,"Are there any records for Olympic medal counts by age group, sport, and event based on total scores?"
+939,6,Rules & Sport,Can spectators see live updates of Olympic scores being set and challenged in real-time?
+940,6,Rules & Sport,Who holds the record for the most medals won in a single Olympics while competing as part of a team and breaking multiple world records and setting a new personal best?
+941,6,Rules & Sport,What is the current record for the highest score achieved in an Olympic event by a woman?
+942,6,Rules & Sport,How do athletes get notified if they have set a new personal best at the Olympics?
+943,6,Rules & Sport,"Are there any records for Olympic medal counts by country, region, age group, sport, and event based on total scores?"
+944,6,Rules & Sport,Can spectators see live updates of Olympic scores being challenged in real-time?
+945,6,Rules & Sport,Who holds the record for the most gold medals won in a single Olympics while competing as part of a team and breaking multiple world records and setting a new personal best?
+946,6,Rules & Sport,What is the process for verifying an Olympic score that has been disputed at the Paralympics?
+947,6,Rules & Sport,How do athletes get informed about their eligibility to compete in the Olympics based on their world record status and personal best performance?
+948,6,Rules & Sport,"Are there any records for Olympic medal counts by country, region, age group, sport, and event based on total scores?"
+949,6,Rules & Sport,Can spectators see live updates of Olympic scores being set and challenged in real-time?
+950,6,Rules & Sport,Who holds the record for the most medals won in a single Olympics while competing as part of a team and breaking multiple world records and setting a new personal best?
+951,6,Rules & Sport,What is the current record for the highest score achieved in an Olympic event by a man?
+952,6,Rules & Sport,How do athletes get notified if they have set a new personal best at the Paralympics?
+953,6,Rules & Sport,"Are there any records for Olympic medal counts by country, region, age group, sport, and event based on total scores?"
+954,6,Rules & Sport,Can spectators see live updates of Olympic scores being challenged in real-time?
+955,6,Rules & Sport,Who holds the record for the most gold medals won in a single Olympics while competing as part of a team and breaking multiple world records and setting a new personal best?
+956,6,Rules & Sport,What is the process for appealing an Olympic score decision that has been made at the Paralympics?
+957,6,Rules & Sport,How do athletes get informed about their ranking in the Olympic standings based on their score?
+958,6,Rules & Sport,"Are there any records for Olympic medal counts by country, region, age group, sport, and event based on total scores?"
+959,6,Rules & Sport,Can spectators see live updates of Olympic scores being set and challenged in real-time?
+960,6,Rules & Sport,Who holds the record for the most medals won in a single Olympics while competing as part of a team and breaking multiple world records and setting a new personal best?
+961,6,Rules & Sport,What is the current record for the highest score achieved in an Olympic event by a woman?
+962,6,Rules & Sport,How do athletes get notified if they have set a new personal best at the Olympics?
+963,6,Rules & Sport,"Are there any records for Olympic medal counts by country, region, age group, sport, and event based on total scores?"
+964,6,Rules & Sport,Can spectators see live updates of Olympic scores being challenged in real-time?
+965,6,Rules & Sport,Who holds the record for the most gold medals won in a single Olympics while competing as part of a team and breaking multiple world records and setting a new personal best?
+966,6,Rules & Sport,What is the process for verifying an Olympic score that has been disputed at the Paralympics?
+967,6,Rules & Sport,How do athletes get informed about their eligibility to compete in the Olympics based on their world record status and personal best performance?
+968,6,Rules & Sport,"Are there any records for Olympic medal counts by country, region, age group, sport, and event based on total scores?"
+969,6,Rules & Sport,Can spectators see live updates of Olympic scores being set and challenged in real-time?
+970,6,Rules & Sport,Who holds the record for the most medals won in a single Olympics while competing as part of a team and breaking multiple world records and setting a new personal best?
+971,6,Rules & Sport,What is the current record for the highest score achieved in an Olympic event by a man?
+972,6,Rules & Sport,How do athletes get notified if they have set a new personal best at the Paralympics?
+973,6,Rules & Sport,"Are there any records for Olympic medal counts by country, region, age group, sport, and event based on total scores?"
+974,6,Rules & Sport,Can spectators see live updates of Olympic scores being challenged in real-time?
+975,7,Food & Drink,What food options are available at the Olympic games?
+976,7,Food & Drink,Can I eat my own food in the stadium?
+977,7,Food & Drink,Where is the nearest restaurant to the venue?
+978,7,Food & Drink,Are there any vegan food options at the Olympic village?
+979,7,Food & Drink,Can I bring a picnic lunch to the event?
+980,7,Food & Drink,Is there a cafeteria near the entrance of the stadium?
+981,7,Food & Drink,What kind of drinks are available for purchase?
+982,7,Food & Drink,Do you have gluten-free snacks available?
+983,7,Food & Drink,Where can I find a snack bar with healthy options?
+984,7,Food & Drink,Can I get food delivered to my seat in the stands?
+985,7,Food & Drink,Are there any restaurants that offer breakfast options?
+986,7,Food & Drink,Can I buy a bottle of water at the concession stand?
+987,7,Food & Drink,Is there a food truck near the entrance of the venue?
+988,7,Food & Drink,Do you have any special dietary options for athletes?
+989,7,Food & Drink,Where is the nearest convenience store to grab a snack?
+990,7,Food & Drink,Can I bring my own beverages into the stadium?
+991,7,Food & Drink,Are there any restaurants that offer international cuisine?
+992,7,Food & Drink,What types of meals are available at the Olympic village cafeteria?
+993,7,Food & Drink,Can I get a refund if I don't like my food purchase?
+994,7,Food & Drink,Do you have any options for food allergies?
+995,7,Food & Drink,Where is the nearest coffee shop to grab a cup of coffee?
+996,7,Food & Drink,Are there any restaurants that offer take-out options?
+997,7,Food & Drink,What kind of snacks are available at the concession stand?
+998,7,Food & Drink,Can I bring my own snacks into the stadium?
+999,7,Food & Drink,Is there a food court near the entrance of the venue?
+1000,7,Food & Drink,Do you have any options for food intolerance?
+1001,7,Food & Drink,Where is the nearest sandwich shop to grab a meal?
+1002,7,Food & Drink,Can I get a discount on food purchases if I buy in bulk?
+1003,7,Food & Drink,Are there any restaurants that offer kid-friendly options?
+1004,7,Food & Drink,What kind of drinks are available at the Olympic village?
+1005,7,Food & Drink,Is there a food bank near the venue for those in need?
+1006,7,Food & Drink,Do you have any options for food delivery services?
+1007,7,Food & Drink,Can I bring my own beverages into the Olympic village?
+1008,7,Food & Drink,Are there any restaurants that offer late-night options?
+1009,7,Food & Drink,What kind of snacks are available at the snack bar?
+1010,7,Food & Drink,Do you have any options for food donation programs?
+1011,7,Food & Drink,Where is the nearest juice bar to grab a drink?
+1012,7,Food & Drink,Can I get a refund on a gift card if it's not used?
+1013,7,Food & Drink,Are there any restaurants that offer meal deals?
+1014,7,Food & Drink,What kind of drinks are available at the concession stand?
+1015,7,Food & Drink,Is there a food festival near the venue with international cuisine?
+1016,7,Food & Drink,Do you have any options for food catering services?
+1017,7,Food & Drink,Can I bring my own snacks into the Olympic village?
+1018,7,Food & Drink,Where is the nearest bagel shop to grab a snack?
+1019,7,Food & Drink,Are there any restaurants that offer breakfast buffet options?
+1020,7,Food & Drink,Do you have any options for food sponsorship programs?
+1021,7,Food & Drink,What kind of meals are available at the Olympic village cafeteria?
+1022,7,Food & Drink,Can I get a discount on food purchases if I buy online in advance?
+1023,7,Food & Drink,Where is the nearest smoothie shop to grab a drink?
+1024,7,Food & Drink,Are there any restaurants that offer special dietary options for events?
+1025,7,Food & Drink,Where can I find something to eat during the Olympic games?
+1026,7,Food & Drink,Are there any food options available near the stadium?
+1027,7,Food & Drink,Can I bring my own food into the venue?
+1028,7,Food & Drink,What types of food are available at the concession stand?
+1029,7,Food & Drink,Are there any restaurants that offer kid-friendly options?
+1030,7,Food & Drink,Can I get a refund on my food purchase if it's not to my liking?
+1031,7,Food & Drink,Where is the nearest place to grab a snack during the event?
+1032,7,Food & Drink,Do you have any special dietary options for athletes?
+1033,7,Food & Drink,What kinds of meals are available at the Olympic village cafeteria?
+1034,7,Food & Drink,Are there any restaurants that offer late-night options?
+1035,7,Food & Drink,Can I get food delivered to my seat in the stands?
+1036,7,Food & Drink,Where is the nearest place to buy a bottle of water?
+1037,7,Food & Drink,Do you have any options for food donation programs?
+1038,7,Food & Drink,What kinds of snacks are available at the snack bar?
+1039,7,Food & Drink,Are there any restaurants that offer international cuisine?
+1040,7,Food & Drink,Can I bring my own beverages into the Olympic village?
+1041,7,Food & Drink,Where is the nearest coffee shop to grab a cup of coffee?
+1042,7,Food & Drink,Do you have any special dietary options for events?
+1043,7,Food & Drink,What kinds of meals are available at the concession stand?
+1044,7,Food & Drink,Are there any restaurants that offer take-out options?
+1045,7,Food & Drink,Can I get a refund if I don't like my food purchase?
+1046,7,Food & Drink,Where is the nearest place to buy a snack?
+1047,7,Food & Drink,Do you have any options for food sponsorship programs?
+1048,7,Food & Drink,What kinds of drinks are available at the Olympic village?
+1049,7,Food & Drink,Are there any restaurants that offer kid-friendly options?
+1050,7,Food & Drink,Can I bring my own snacks into the stadium?
+1051,7,Food & Drink,Where is the nearest place to grab a meal during the event?
+1052,7,Food & Drink,Do you have any special dietary options for athletes?
+1053,7,Food & Drink,What kinds of meals are available at the Olympic village cafeteria?
+1054,7,Food & Drink,Are there any restaurants that offer breakfast buffet options?
+1055,7,Food & Drink,Can I get food delivered to my seat in the stands?
+1056,7,Food & Drink,Where is the nearest place to buy a bottle of water?
+1057,7,Food & Drink,Do you have any options for food donation programs?
+1058,7,Food & Drink,What kinds of snacks are available at the snack bar?
+1059,7,Food & Drink,Are there any restaurants that offer international cuisine?
+1060,7,Food & Drink,Can I bring my own beverages into the Olympic village?
+1061,7,Food & Drink,Where is the nearest coffee shop to grab a cup of coffee?
+1062,7,Food & Drink,Do you have any special dietary options for events?
+1063,7,Food & Drink,What kinds of meals are available at the concession stand?
+1064,7,Food & Drink,Are there any restaurants that offer take-out options?
+1065,7,Food & Drink,Can I get a refund if I don't like my food purchase?
+1066,7,Food & Drink,Where is the nearest place to buy a snack?
+1067,7,Food & Drink,Do you have any options for food sponsorship programs?
+1068,7,Food & Drink,What kinds of drinks are available at the Olympic village?
+1069,7,Food & Drink,Are there any restaurants that offer kid-friendly options?
+1070,7,Food & Drink,Can I bring my own snacks into the stadium?
+1071,7,Food & Drink,Where is the nearest place to grab a meal during the event?
+1072,7,Food & Drink,Do you have any special dietary options for athletes?
+1073,7,Food & Drink,What kinds of meals are available at the Olympic village cafeteria?
+1074,7,Food & Drink,Are there any restaurants that offer breakfast buffet options?
+1075,7,Food & Drink,"Are food service locations (food court, concession stands) open during the event?"
+1076,7,Food & Drink,Can I pay with cash or card at the food service locations?
+1077,7,Food & Drink,"What types of meal times are available (lunch, dinner)?"
+1078,7,Food & Drink,Is there a specific area for food donations?
+1079,7,Food & Drink,"Do you have any options for special dietary specifications (vegetarian, halal, gluten-free)?"
+1080,7,Food & Drink,Are there any restrictions on bringing your own food into the venue?
+1081,7,Food & Drink,Can I get a refund if my food purchase doesn't meet my expectations?
+1082,7,Food & Drink,What types of payment methods are accepted at the concession stand?
+1083,7,Food & Drink,Is there a designated area for food trucks to park?
+1084,7,Food & Drink,"Do you have any options for meal times (breakfast, lunch, dinner)?"
+1085,7,Food & Drink,Are there any restrictions on eating inside the venue?
+1086,7,Food & Drink,Can I get a refund if my food purchase is not available in time?
+1087,7,Food & Drink,What types of food service locations are available near the entrance of the stadium?
+1088,7,Food & Drink,Is there a specific area for food sponsorship programs?
+1089,7,Food & Drink,"Do you have any options for special dietary specifications (vegan, gluten-free)?"
+1090,7,Food & Drink,Are there any restrictions on bringing your own snacks into the venue?
+1091,7,Food & Drink,Can I get a refund if my snack purchase doesn't meet my expectations?
+1092,7,Food & Drink,What types of payment methods are accepted at the snack bar?
+1093,7,Food & Drink,Is there a designated area for snack donations?
+1094,7,Food & Drink,"Do you have any options for meal times (breakfast, lunch)?"
+1095,7,Food & Drink,Are there any restrictions on eating inside the venue?
+1096,7,Food & Drink,Can I get a refund if my food purchase is not available in time?
+1097,7,Food & Drink,What types of food service locations are available near the entrance of the stadium?
+1098,7,Food & Drink,Is there a specific area for food sponsorship programs?
+1099,7,Food & Drink,"Do you have any options for special dietary specifications (vegan, gluten-free)?"
+1100,7,Food & Drink,Are there any restrictions on bringing your own snacks into the venue?
+1101,7,Food & Drink,Can I get a refund if my snack purchase doesn't meet my expectations?
+1102,7,Food & Drink,What types of payment methods are accepted at the snack bar?
+1103,7,Food & Drink,Is there a designated area for snack donations?
+1104,7,Food & Drink,"Do you have any options for meal times (breakfast, lunch)?"
+1105,7,Food & Drink,"Are food service locations (food court, concession stands) open during the event?"
+1106,7,Food & Drink,Can I pay with cash or card at the food service locations?
+1107,7,Food & Drink,"What types of meal times are available (lunch, dinner)?"
+1108,7,Food & Drink,Is there a specific area for food donations?
+1109,7,Food & Drink,"Do you have any options for special dietary specifications (vegetarian, halal)?"
+1110,7,Food & Drink,Are there any restrictions on bringing your own food into the venue?
+1111,7,Food & Drink,Can I get a refund if my food purchase doesn't meet my expectations?
+1112,7,Food & Drink,What types of payment methods are accepted at the concession stand?
+1113,7,Food & Drink,Is there a designated area for food trucks to park?
+1114,7,Food & Drink,"Do you have any options for meal times (breakfast, lunch)?"
+1115,7,Food & Drink,Are there any restrictions on eating inside the venue?
+1116,7,Food & Drink,Can I get a refund if my food purchase is not available in time?
+1117,7,Food & Drink,What types of food service locations are available near the entrance of the stadium?
+1118,7,Food & Drink,Is there a specific area for food sponsorship programs?
+1119,7,Food & Drink,"Do you have any options for special dietary specifications (vegan, gluten-free)?"
+1120,7,Food & Drink,Are there any restrictions on bringing your own snacks into the venue?
+1121,7,Food & Drink,Can I get a refund if my snack purchase doesn't meet my expectations?
+1122,7,Food & Drink,What types of payment methods are accepted at the snack bar?
+1123,7,Food & Drink,Is there a designated area for snack donations?
+1124,7,Food & Drink,"Do you have any options for meal times (breakfast, lunch)?"
