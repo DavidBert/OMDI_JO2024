@@ -69,6 +69,7 @@ Pour ce projet, le comité olympique vous conseille d'utiliser les datasets suiv
 - [Dataset principal des Jeux Olympiques de Paris 2024](https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games)  
 - [Parcours de la flamme olympique](https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games?select=torch_route.csv)  
 - [200 meilleurs restaurants parisiens selon TripAdvisor](https://www.kaggle.com/datasets/kanchana1990/200-best-paris-eateries-tripadvisor-24)
+- [Dataset des questions](https://github.com/DavidBert/OMDI_JO2024/blob/main/questions_dataset/questions_train.csv)
 
 ### Framework Web
 Pas de contrainte particulière, vous pouvez utiliser le framework de votre choix.
