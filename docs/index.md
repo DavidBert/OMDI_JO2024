@@ -59,6 +59,7 @@ Les livrables pour cette partie sont les suivants:
 
 - Une page sur le site web permettant de poser une question et qui renvoie un message de confirmation du type "Votre question a été reçue, elle sera traitée dans les plus bref délais par l'équipe responsable de [catgorie prédite par le modèle]"
 - Une evaluation de la performance du modèle de machine learning sur [ce dataset de test](https://github.com/DavidBert/OMDI_JO2024/blob/main/questions_dataset/questions_test.csv).  
+
 __Attenion: vous devez entrainer le modèle sur l'une de vos machines et le déployer sur le serveur INSA.  
 Cela signifie que vous ne devez pas faire l'entrainement sur le serveur. Vous devez à la place entrainer en local et enregistrer le modèle (tfidf + random forest) dans un fichier ou plusieurs fichiers(.pkl) puis depuis le serveur charger le modèle et l'utiliser pour la classification des questions.__  
 
@@ -68,7 +69,7 @@ Cela signifie que vous ne devez pas faire l'entrainement sur le serveur. Vous de
 Pour ce projet, le comité olympique vous conseille d'utiliser les datasets suivants:  
 - [Dataset principal des Jeux Olympiques de Paris 2024](https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games)  
 - [Parcours de la flamme olympique](https://www.kaggle.com/datasets/piterfm/paris-2024-olympic-summer-games?select=torch_route.csv)  
-- [200 meilleurs restaurants parisiens selon TripAdvisor](https://www.kaggle.com/datasets/kanchana1990/200-best-paris-eateries-tripadvisor-24)
+- [200 meilleurs restaurants parisiens selon TripAdvisor](https://www.kaggle.com/datasets/kanchana1990/200-best-paris-eateries-tripadvisor-24)  
 - [Dataset des questions](https://github.com/DavidBert/OMDI_JO2024/blob/main/questions_dataset/questions_train.csv)
 
 ### Framework Web
