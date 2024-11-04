@@ -55,8 +55,8 @@ Vous allez pour cela utiliser le dataset disponible [ici](https://github.com/Dav
 Je vous conseille d'utiliser une approche de type [TF-IDF](https://scikit-learn.org/1.5/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html) avec un classifieur [random forest](https://scikit-learn.org/1.5/modules/generated/sklearn.ensemble.RandomForestClassifier.html) par exemple.  
 Vous pouvez trouver un exemple de la démarche [ici](https://scikit-learn.org/1.5/auto_examples/text/plot_document_classification_20newsgroups.html#sphx-glr-auto-examples-text-plot-document-classification-20newsgroups-py) pour vous inspirer.  
 
-Il est attendu donc que vous entrainiez un modèle de machine learning sur le dataset fourni et que vous déployiez un outil de classification des questions.  
-Les livrables pour cette partie sont les suivants:
+Les livrables pour cette partie sont les suivants:  
+
 - Une page sur le site web permettant de poser une question et qui renvoie un message de confirmation du type "Votre question a été reçue, elle sera traitée dans les plus bref délais par l'équipe responsable de [catgorie prédite par le modèle]"
 - Une evaluation de la performance du modèle de machine learning sur [ce dataset de test](https://github.com/DavidBert/OMDI_JO2024/blob/main/questions_dataset/questions_test.csv).  
 __Attenion: vous devez entrainer le modèle sur l'une de vos machines et le déployer sur le serveur INSA.  
