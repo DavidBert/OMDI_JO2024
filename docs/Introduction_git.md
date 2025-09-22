@@ -1,13 +1,13 @@
-# Introduction to Git, GitLab and CI/CD
+# Introduction to Git and CI/CD
 
 ## Introduction:
 
 This practical session is designed for small groups of 2-3 people to work through together.  
 It is very important that every member of the group runs the different commands in this practical session all shared with the same repository (we will see later what this means).
-During this project, you will learn if not already, how to use Git and GitLab to manage your code and to collaborate with your team.  
-You will also learn how to use GitLab Actions to deploy your code and to run tests.
-This practical session is not a full Git and GitLab course, but rather a practical introduction to these tools providing you with the basic knowledge to be able to use them during this project.  
-If you want to learn more about Git and GitLab, you can refer to the [official documentation](https://docs.GitLab.com/en/get-started/quickstart/set-up-git).
+During this project, you will learn if not already, how to use Git and GitHub to manage your code and to collaborate with your team.  
+You will also learn how to use GitHub Actions to deploy your code and to run tests.
+This practical session is not a full Git and GitHub course, but rather a practical introduction to these tools providing you with the basic knowledge to be able to use them during this project.  
+If you want to learn more about Git and GitHub, you can refer to the [official documentation](https://docs.GitHub.com/en/get-started/quickstart/set-up-git).
 
 
 ## Understanding Version Control
@@ -88,7 +88,8 @@ class Book:
 
 * __Day 10:__ You realize the stock tracking feature has a bug allowing negative stock.
 
-With version control, you can:
+With version control, you can:  
+
 1. Review the history of changes to identify when the bug was introduced.
 2. Revert just the problematic `update_stock` method while keeping the other beneficial changes.
 3. Fix the bug and commit the corrected version.
@@ -119,7 +120,8 @@ class Book:
         return self.price * self.stock
 ```
 
-This example demonstrates how version control allows you to:
+This example demonstrates how version control allows you to:  
+
 - Track the evolution of your code over time
 - Identify when and where issues were introduced
 - Selectively keep or discard changes
@@ -206,27 +208,27 @@ Understanding the different areas in Git is crucial for mastering its workflow. 
 
 Understanding these areas and how they interact is key to understanding Git's workflow and effectively managing your projects with version control.
 
-# GitLab
-![](img/gitlab.png)
-GitLab is a web-based hosting service for Git repositories. Launched in 2008, it has become the world's largest host of source code and a central hub for collaboration among developers. While Git is a command-line tool, GitLab provides a web-based graphical interface. It also offers access control and several collaboration features, such as bug tracking, feature requests, task management, and wikis for every project.
+# GitHub
+![](img/github.png)
+GitHub is a web-based hosting service for Git repositories. Launched in 2008, it has become the world's largest host of source code and a central hub for collaboration among developers. While Git is a command-line tool, GitHub provides a web-based graphical interface. It also offers access control and several collaboration features, such as bug tracking, feature requests, task management, and wikis for every project.
 
-Key features of GitLab include:
+Key features of GitHub include:
 
-1. **Repository Hosting**: GitLab can host your Git repositories in the cloud, making it easy to share and collaborate on code.
+1. **Repository Hosting**: GitHub can host your Git repositories in the cloud, making it easy to share and collaborate on code.
 
 2. **Fork and Pull Request**: Users can "fork" an existing repository (creating their own copy), make changes, and then submit a "pull request" to propose those changes back to the original project.
 
-3. **Issue Tracking**: GitLab provides a system for reporting and managing bugs, feature requests, and other tasks related to a project.
+3. **Issue Tracking**: GitHub provides a system for reporting and managing bugs, feature requests, and other tasks related to a project.
 
 4. **Project Management Tools**: Including project boards, milestones, and other tools to help manage and organize work on repositories.
 
 5. **Social Coding**: Users can follow repositories and other users, star repositories they like, and see a feed of activity from repositories and users they're interested in.
 
-6. **GitLab Pages**: A feature that allows hosting of static websites directly from a GitLab repository.
+6. **GitHub Pages**: A feature that allows hosting of static websites directly from a GitHub repository.
 
-7. **Integrations**: GitLab can integrate with many third-party services, enhancing its capabilities for things like continuous integration and deployment.
+7. **Integrations**: GitHub can integrate with many third-party services, enhancing its capabilities for things like continuous integration and deployment.
 
-GitLab has played a significant role in the growth of open-source software, providing a platform where developers from around the world can collaborate on projects. It's used not only by individual developers and open-source projects but also by large companies to host and manage their code.
+GitHub has played a significant role in the growth of open-source software, providing a platform where developers from around the world can collaborate on projects. It's used not only by individual developers and open-source projects but also by large companies to host and manage their code.
 
 ## Setting up your environment
 
@@ -250,7 +252,8 @@ pip install flask
 ```
 
 ### Git
-![](img/git.png)
+![](img/git.png)  
+
 1. Download Git from the official website: https://git-scm.com/downloads
 2. Follow the installation instructions for your operating system.
 3. After installation, open a new terminal or command prompt and verify the installation:
@@ -263,17 +266,16 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
 
-### GitLab
-![](img/gitlab.png)
-We will use GitLab as our remote repository for this project.  
-A GitLab server is already hosted at INSA, you can access it at https://gitlab-ens.insa-toulouse.fr/ (you need to be connected to the INSA VPN to access it).
-Verify that you do have a GitLab account.
+### GitHub
+![](img/github.png)
+We will use GitHub as our remote repository for this project.  
+If you don't have a GitHub account, you can create one for free at https://github.com/.
 
 ### Remote repository
 (Just one person in the group should do this and invite others to collaborate)
 
-1. Log in to GitLab.
-2. Click the create a project button.
+1. Log in to GitHub.
+2. Click the "new" button on the left menu.
 3. Name your repository (e.g., "flask-git-demo").
 4. Choose to make it public.
 5. Initialize the repository with a README file.
@@ -293,18 +295,18 @@ cd path/to/your/project/directory
 ```
 3. Clone the remote repository:
 ```
-git clone https://GitLab.com/your-username/flask-git-demo.git
+git clone https://github.com/your-username/flask-git-demo.git
 ```
-   (Replace 'your-username' with the GitLab username of the person who created the repository)
+   (Replace 'your-username' with the GitHub username of the person who created the repository)
 4. Navigate into the cloned repository:
 ```
 cd flask-git-demo
 ```
 
-Now your environment is set up and ready for the Git and GitLab practical session. Each member of the group should have Python, Flask, and Git installed, a GitLab account, and a local copy of the repository. The repository owner has set up the remote repository and invited other group members as collaborators.
+Now your environment is set up and ready for the Git and GitHub practical session. Each member of the group should have Python, Flask, and Git installed, a GitHub account, and a local copy of the repository. The repository owner has set up the remote repository and invited other group members as collaborators.
 
-## Practical session: A Flask Web App Development with Git and GitLab
-We'll build a Flask web app that collects a user's name and date of birth, then displays various information based on this input. We'll develop this app in stages, using Git and GitLab to manage our development process.
+## Practical session: A Flask Web App Development with Git and GitHub
+We'll build a Flask web app that collects a user's name and date of birth, then displays various information based on this input. We'll develop this app in stages, using Git and GitHub to manage our development process.
 
 ### Stage 1: Basic Setup and First Commit - Explained Guide
 
@@ -467,7 +469,7 @@ git status
 ```
 git push origin main
 ```
-   This uploads your local commits to the remote repository on GitLab.
+   This uploads your local commits to the remote repository on GitHub.
    Check the status again to verify that the commit has been pushed:
 ```
 git status
@@ -514,7 +516,7 @@ git pull origin main
 
 - Remember to commit your changes frequently with meaningful commit messages as you start working on new features in the upcoming stages.
 
-In the next stages, we'll add more features to this app and explore more Git and GitLab concepts as a team.
+In the next stages, we'll add more features to this app and explore more Git and GitHub concepts as a team.
 
 ### Stage 2: Implementing Age Calculation - Direct Implementation
 
@@ -531,7 +533,7 @@ git pull origin main
 ```
 This fetches and merges the latest changes from the main branch.
 
-### 2. Implement Age Calculation
+##### 2. Implement Age Calculation
 
 1. Open `app.py` and add a new function to calculate age:
 
@@ -568,7 +570,7 @@ python app.py
 ```
 Verify that the age calculation works correctly by submitting the form and checking the result.
 
-### 4. Commit Your Changes
+##### 4. Commit Your Changes
 
 After confirming that everything works:
 
@@ -585,7 +587,7 @@ Push your commits to the remote repository:
 ```
 git push origin main
 ```
-This updates the main branch on GitLab with your new changes.
+This updates the main branch on GitHub with your new changes.
 
 ##### 6. Notify Team Members
 
@@ -691,7 +693,7 @@ git add app.py
 git commit -m "Add zodiac sign feature"
 ```
 
-##### 6. Push Your Branch to GitLab
+##### 6. Push Your Branch to GitHub
 
 Push your feature branch to the remote repository:
 
@@ -701,17 +703,17 @@ git push -u origin feature/zodiac-sign
 
 ##### 7. Create a Pull Request
 
-1. Go to your repository on GitLab.
-2. You should see a prompt to create a merge request for your recently pushed branch. Click on it.
-3. Fill in the details of your merge request, describing the new zodiac sign feature.
-4. Assign team members to review your merge request.
+1. Go to your repository on GitHub.
+2. You should see a prompt to create a pull request for your recently pushed branch. Click on it.
+3. Fill in the details of your pull request, describing the new zodiac sign feature.
+4. Assign team members to review your pull request.
 
 #### For Other Team Members (Reviewers):
 
 ##### Reviewing the Pull Request
 
-1. Go to the repository on GitLab and navigate to the "Merge requests" tab on the left menu.
-2. Click on the merge request for the zodiac sign feature.
+1. Go to the repository on GitHub and navigate to the Pull Requests tab.
+2. Click on the pull request for the zodiac sign feature.
 3. Review the changes:
    - Check the code for correctness and style.
    - Consider how this feature integrates with the existing codebase.
@@ -738,17 +740,17 @@ git pull origin main
 ```
 3. Test the updated application to ensure everything works correctly.
 
-In the next stage, we'll continue to build on our app and explore more advanced Git and GitLab features, such as handling merge conflicts.
+In the next stage, we'll continue to build on our app and explore more advanced Git and GitHub features, such as handling merge conflicts.
 
-### Stage 4: Enhancing the UI - Git Stash and GitLab Issues
+### Stage 4: Enhancing the UI - Git Stash and GitHub Issues
 
-In this stage, we'll improve the user interface of our Flask application by adding some basic CSS. We'll also learn about Git stash for managing temporary changes and use GitLab Issues for task tracking.
+In this stage, we'll improve the user interface of our Flask application by adding some basic CSS. We'll also learn about Git stash for managing temporary changes and use GitHub Issues for task tracking.
 
 #### For the Project Manager (can be any team member):
 
-##### 1. Create GitLab Issues
+##### 1. Create GitHub Issues
 
-1. Go to your GitLab repository and navigate to the "Issues" tab.
+1. Go to your GitHub repository and navigate to the "Issues" tab.
 2. Create a new issue titled "Enhance UI with CSS".
 3. In the description, outline the following tasks:
    - Add a CSS file for styling
@@ -866,13 +868,13 @@ git commit -m "Enhance UI with CSS styling"
 
 ##### 7. Push and Create Pull Request
 
-Push your branch and create a merge request:
+Push your branch and create a pull request:
 
 ```
 git push -u origin feature/ui-enhancement
 ```
 
-Create a pull request on GitLab, referencing the issue number in the description (e.g., "Closes #1").
+Create a pull request on GitHub, referencing the issue number in the description (e.g., "Closes #1").
 
 #### For Reviewers:
 
@@ -882,7 +884,7 @@ Create a pull request on GitLab, referencing the issue number in the description
 
 #### After Merging:
 
-1. Close the GitLab issue once the pull request is merged.
+1. Close the GitHub issue once the pull request is merged.
 2. All team members should pull the latest changes:
 ```
 git checkout main
@@ -891,7 +893,7 @@ git pull origin main
 
 
 Discuss as a team:
-1. How did using GitLab Issues help in organizing the task?
+1. How did using GitHub Issues help in organizing the task?
 2. What was your experience with Git stash? How might it be useful in other scenarios?
 3. How has the workflow evolved from the earlier stages of the project?
 
@@ -1016,7 +1018,7 @@ git add app.py
 git commit -m "Merge main into feature/birthday-countdown and resolve conflicts"
 git push origin feature/birthday-countdown
 ```
-Before moving to the next part, you can merge the feature branch into the main branch, either using a merge request or if you have the right to do it directly:
+Before moving to the next part, you can merge the feature branch into the main branch, either using a pull request or if you have the right to do it directly:
 ```
 git checkout main
 git merge feature/birthday-countdown
@@ -1125,7 +1127,7 @@ git rebase --continue
 ```
 git push origin feature/lucky-number --force
 ```
-Make a merge request to merge the feature branch into the main branch.
+Make a pull request to merge the feature branch into the main branch.
 
 ### Stage 6: Implementing Tests for the Flask Application
 
@@ -1340,52 +1342,59 @@ CD can also refer to Continuous Delivery, where changes are automatically deploy
 
 6. **Increased Confidence**: With a robust CI/CD pipeline, teams can be more confident in the stability and quality of their code.
 
-In the following section, we'll implement a basic CI/CD pipeline using GitLab Actions, experiencing firsthand how these practices can improve our development workflow.
+In the following section, we'll implement a basic CI/CD pipeline using GitHub Actions, experiencing firsthand how these practices can improve our development workflow.
 
-##### Implementing CI/CD with GitLab
+##### Implementing CI/CD with GitHub
 
-In this final part, we'll set up a Continuous Integration/Continuous Deployment (CI/CD) pipeline using GitLab Actions. We'll deliberately introduce a failing test, observe it fail both locally and in the CI pipeline, and then fix it.
+In this final part, we'll set up a Continuous Integration/Continuous Deployment (CI/CD) pipeline using GitHub Actions. We'll deliberately introduce a failing test, observe it fail both locally and in the CI pipeline, and then fix it.
 
-#### 1. Setting Up GitLab CI/CD
+#### 1. Setting Up GitHub CI/CD
 
-1. In your local repository, create a new file named .gitlab-ci.yml in the root directory:
-```
-touch .gitlab-ci.yml     
-```
+* In your local repository, create a new file `.github/workflows/python-app.yml` with the following content:
 
-2. Create a new file `.GitLab/workflows/python-app.yml` with the following content:
 
 ```yaml
-image: python:3.8
+name: Python Test
 
-stages:
-  - test
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
-before_script:
-  - python -m pip install --upgrade pip
-  - pip install flask pytest
-
-test:
-  stage: test
-  script:
-    - pytest
-  only:
-    - main
-    - merge_requests
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flask pytest
+    
+    - name: Run tests
+      run: pytest
 ```
 
-This GitLab CI/CD configuration does the following:
+This GitHub CI/CD configuration does the following:
 
 * Uses a Python 3.8 Docker image for the CI environment
 * Defines a single stage called "test"
 * Installs the necessary dependencies (Flask and pytest)
 * Runs the pytest command to execute the tests
-* Triggers the pipeline on pushes to the main branch and for merge requests
+* Triggers the pipeline on pushes to the main branch and for pull requests
 
 3. Commit and push this new file:
 ```
-git add .gitlab-ci.yml
-git commit -m "Add GitLab CI/CD configuration"
+git add .github/workflows/python-app.yml
+git commit -m "Add GitHub CI/CD configuration"
 git push origin main
 ```
 
@@ -1423,7 +1432,7 @@ pytest
 
 You should see that the second assertion in `test_calculate_age` fails.
 
-#### 4. Pushing to GitLab and Observing CI Failure
+#### 4. Pushing to GitHub and Observing CI Failure
 
 Commit and push these changes:
 
@@ -1433,7 +1442,7 @@ git commit -m "Update calculate_age function and its test"
 git push origin main
 ```
 
-Go to your GitLab repository, click on the "Build/Pipelines" tab, and you should see the pipeline running. It will fail due to the failing test.
+Go to your GitHub repository, click on the "Build/Pipelines" tab, and you should see the pipeline running. It will fail due to the failing test.
 Because of that failure, the code won't be deployed to the production environment.  
 You can think of the pipeline as a way to ensure that the code is working as expected before it is deployed to the production environment.
 
@@ -1462,6 +1471,6 @@ git commit -m "Fix calculate_age function"
 git push origin main
 ```
 
-3. Go back to the GitLab tab and watch the new workflow run. It should pass all tests now.
+3. Go back to the GitHub tab and watch the new workflow run. It should pass all tests now.
 
-By following these steps, you've implemented a basic CI/CD pipeline using GitLab. This pipeline will automatically run your tests whenever you push changes to the repository, helping you catch issues early and ensure the quality of your code. 
+By following these steps, you've implemented a basic CI/CD pipeline using GitHub. This pipeline will automatically run your tests whenever you push changes to the repository, helping you catch issues early and ensure the quality of your code. 

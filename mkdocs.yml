@@ -2,7 +2,7 @@ site_name: Outils et méthodes de développement informatique
 
 nav:
   - Home: index.md
-  - Introduction to Git and GitLab: Introduction_git_github.md
+  - Introduction to Git and Github: Introduction_git.md
 theme:
   name: 'flatly'
   logo: docs/img/logo-insa.jpg
